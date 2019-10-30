@@ -1,0 +1,23 @@
+<p>In this Bite you are presented with a list of surnames, names, and countries. These 3 fields are in a multiline string, separated by a comma.</p><p>Code <code>group_names_by_country</code>, looping through the list, returning a <code>collections.defaultdict</code> where the keys are countries and the values are <code>list</code>s of concatenated names and surnames. The order of the names does not matter.</p><p>Here is an example of a possible input to your function:<pre>
+data = """last_name,first_name,country_code
+Watsham,Husain,ID
+Harrold,Alphonso,BR
+Apdell,Margo,CN
+Tomblings,Deerdre,RU
+Wasielewski,Sula,ID
+Jeffry,Rudolph,TD
+Brenston,Luke,SE
+Parrett,Ines,CN
+Braunle,Kermit,PL
+Halbard,Davie,CN"""
+</pre></p>
+<p>...  and the output your function should return:<pre>
+defaultdict(<class 'list'>,
+            {'BR': ['Alphonso Harrold'],
+             'CN': ['Margo Apdell', 'Ines Parrett', 'Davie Halbard'],
+             'ID': ['Husain Watsham', 'Sula Wasielewski'],
+             'PL': ['Kermit Braunle'],
+             'RU': ['Deerdre Tomblings'],
+             'SE': ['Luke Brenston'],
+             'TD': ['Rudolph Jeffry']})
+</pre></pre><p>Good luck and keep calm and code in Python! Read up on <a href="https://docs.python.org/3.7/library/collections.html" target="_blank"><code>collections</code></a>, one of our favorite standard library modules!</p>
