@@ -1,6 +1,10 @@
+# author: @Flash (https://github.com/etoFlash)
 # unzip archives with names like pybites_bite[%NUMBER%].zip to folders with names like [%NUMBER%]
 # for supporting submit solution to https://codechalleng.es/bites/ through github repository
-# TODO: extract title by requests by regex re.search(r"Bite ([0-9]{1-3}.*?)</title>", str(r.content))
+# TODO: 1) extract title, level and tags by requests by regex from codechalleng.es (exaple:
+#  re.search(r"Bite ([0-9]{1-3}.*?)</title>", str(r.content))
+# TODO: 2) add info about bite to solved_bites.md
+# TODO: 3) add to top in py-file in new folder comment "# TODO: beat it" for made more easy search not solved bites
 import glob
 import re
 import os
