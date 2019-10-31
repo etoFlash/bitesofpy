@@ -1,5 +1,6 @@
-# unzip archives with names like pybites_bite[%NUMBER%].zip to folders wit names like [%NUMBER%]
+# unzip archives with names like pybites_bite[%NUMBER%].zip to folders with names like [%NUMBER%]
 # for supporting submit solution to https://codechalleng.es/bites/ through github repository
+# TODO: extract title by requests by regex re.search(r"Bite ([0-9]{1-3}.*?)</title>", str(r.content))
 import glob
 import re
 import os
@@ -8,7 +9,7 @@ files_to_unzip = []
 files_unzipped = []
 for file in glob.glob("*.zip"):
     print(file)
-    result = re.search(r'.*?([0-9]{1,3})\.zip', file)
+    result = re.search(r".*?([0-9]{1,3})\.zip", file)
     if result:
         files_to_unzip.append(file)
         num = result.group(1)
