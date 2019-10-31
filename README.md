@@ -1,5 +1,4 @@
 # bitesofpy
-Решенные задачи с https://codechalleng.es/bites/.
 
 Repo with my Python Exercises solutions (Bites of Py) from site https://codechalleng.es/bites/.
 
