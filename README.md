@@ -1,12 +1,8 @@
 # bitesofpy
 Решенные задачи с https://codechalleng.es/bites/.
 
-List:
+Repo with my Python Exercises solutions (Bites of Py) from site https://codechalleng.es/bites/.
 
-- [x] [8. Rotate string characters](https://codechalleng.es/bites/8)
+[Russian readme](/README_RU.md)
 
-- [x] [46. You are a programmer! Code Fizz Buzz](https://codechalleng.es/bites/46)
-
-- [x] [101. f-strings and a simple if/else](https://codechalleng.es/bites/101)
-
-- [x] [180. Group names by country](https://codechalleng.es/bites/180)
+[Exercises in repo](/solved_bites.md)
