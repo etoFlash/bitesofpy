@@ -1,6 +1,8 @@
+Go to: [English readme](/README.md) / [Russian readme](/README_RU.md)
+
 List:
 
-- [x] [8. Rotate string characters](/8)  | [on codechalleng.es](https://codechalleng.es/bites/8) | level: Begginer | tags: deque, slicing
+- [x] [8. Rotate string characters](/8) | [on codechalleng.es](https://codechalleng.es/bites/8) | level: Begginer | tags: deque, slicing
 
 - [x] [46. You are a programmer! Code Fizz Buzz](/46) | [on codechalleng.es](https://codechalleng.es/bites/46) | level: Begginer | tags: fizzbuzz
 
