@@ -8,4 +8,6 @@ List:
 
 - [x] [101. f-strings and a simple if/else](/101) | [on codechalleng.es](https://codechalleng.es/bites/101) | level: Into | tags: f-strings, if/else
 
+- [x] [110. Type conversion and exception handling](/110) | [on codechalleng.es](https://codechalleng.es/bites/110) | level: Into | tags: exception handling, raise, type casting
+
 - [x] [180. Group names by country](/180) | [on codechalleng.es](https://codechalleng.es/bites/180) | level: Begginer | tags: collections, defaultdict, groupby
