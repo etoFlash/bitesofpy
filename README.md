@@ -14,6 +14,8 @@ List:
 
 - [x] [46. You are a programmer! Code Fizz Buzz](/46) | [on codechalleng.es](https://codechalleng.es/bites/46) | level: Beginner | tags: fizzbuzz
 
+- [x] [55. Get the latest game releases from Steam's RSS feed](/55) | [on codechalleng.es](https://codechalleng.es/bites/55) | level: Beginner | tags: feedparser, namedtuple
+
 - [x] [101. f-strings and a simple if/else](/101) | [on codechalleng.es](https://codechalleng.es/bites/101) | level: Into | tags: f-strings, if/else
 
 - [x] [109. Workout dict lookups and raising an exception](/109) | [on codechalleng.es](https://codechalleng.es/bites/109) | level: Into | tags: dict, exception handling, format, string manipulation, ternary
