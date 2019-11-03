@@ -7,6 +7,7 @@ import glob
 import re
 import os
 import zipfile
+import traceback
 files_to_unzip = []
 files_unzipped = []
 unzip_errors = []
@@ -26,18 +27,22 @@ for file in glob.glob("*.zip"):
             unzip_errors.append("folder exists")
             continue
         with zipfile.ZipFile(file) as zip_file:
-            zip_file.extractall(num)
+            try:
+                zip_file.extractall(num)
+            except Exception as e:
+                unzip_errors.append(f"fall of unzipping:\n[{traceback.format_exc()[:-1]}]")
+                continue
         files_unzipped.append(file)
         files_to_unzip.remove(file)
         os.remove(file)
 
 if files_unzipped:
     print("Unzipped:")
-    for file in files_unzipped:
-        print(f" {file}")
+    for i, file in enumerate(files_unzipped):
+        print(f"{i + 1}) {file}")
 if files_to_unzip:
     print("Not unzipped (file - reason):")
-    for file, reason in zip(files_to_unzip, unzip_errors):
-        print(f" {file} - {reason}")
+    for i, (file, reason) in enumerate(zip(files_to_unzip, unzip_errors)):
+        print(f"{i + 1}) {file} - {reason}")
 if not (files_unzipped or files_to_unzip):
     print("Nothing to process")
