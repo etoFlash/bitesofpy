@@ -18,6 +18,8 @@ List:
 
 - [x] [55. Get the latest game releases from Steam's RSS feed](/55) | [on codechalleng.es](https://codechalleng.es/bites/55) | level: Beginner | tags: feedparser, namedtuple
 
+- [x] [75. Parse Unix cal to a weekday mapping](/75) | [on codechalleng.es](https://codechalleng.es/bites/75) | level: Advanced | tags: re, Unix, zip
+
 - [x] [101. f-strings and a simple if/else](/101) | [on codechalleng.es](https://codechalleng.es/bites/101) | level: Into | tags: f-strings, if/else
 
 - [x] [105. Slice and dice](/105) | [on codechalleng.es](https://codechalleng.es/bites/105) | level: Into | tags: replace, slicing, split, string module, strip
