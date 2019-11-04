@@ -27,5 +27,4 @@ def slice_and_dice(text: str = text) -> list:
         if result[-1] in (".", "!"):
             result = result[:-1]
         results.append(*result.split()[-1:])
-    print(results)
     return results
