@@ -18,6 +18,8 @@ List:
 
 - [x] [101. f-strings and a simple if/else](/101) | [on codechalleng.es](https://codechalleng.es/bites/101) | level: Into | tags: f-strings, if/else
 
+- [x] [105. Slice and dice](/105) | [on codechalleng.es](https://codechalleng.es/bites/105) | level: Into | tags: replace, slicing, split, string module, strip
+
 - [x] [109. Workout dict lookups and raising an exception](/109) | [on codechalleng.es](https://codechalleng.es/bites/109) | level: Into | tags: dict, exception handling, format, string manipulation, ternary
 
 - [x] [110. Type conversion and exception handling](/110) | [on codechalleng.es](https://codechalleng.es/bites/110) | level: Into | tags: exception handling, raise, type casting
