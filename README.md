@@ -12,6 +12,8 @@ List:
 
 - [x] [8. Rotate string characters](/8) | [on codechalleng.es](https://codechalleng.es/bites/8) | level: Beginner | tags: deque, slicing
 
+- [x] [43. Force keyword arguments](/43) | [on codechalleng.es](https://codechalleng.es/bites/43) | level: Beginner | tags: function arguments, kwargs
+
 - [x] [46. You are a programmer! Code Fizz Buzz](/46) | [on codechalleng.es](https://codechalleng.es/bites/46) | level: Beginner | tags: fizzbuzz
 
 - [x] [55. Get the latest game releases from Steam's RSS feed](/55) | [on codechalleng.es](https://codechalleng.es/bites/55) | level: Beginner | tags: feedparser, namedtuple
