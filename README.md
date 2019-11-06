@@ -16,6 +16,8 @@ List:
 
 - [x] [46. You are a programmer! Code Fizz Buzz](/46) | [on codechalleng.es](https://codechalleng.es/bites/46) | level: Beginner | tags: fizzbuzz
 
+- [x] [49. Scrape Packt's html with BeautifulSoup](/49) | [on codechalleng.es](https://codechalleng.es/bites/49) | level: Intermediate | tags: beautifulsoup, namedtuple, requests
+
 - [x] [55. Get the latest game releases from Steam's RSS feed](/55) | [on codechalleng.es](https://codechalleng.es/bites/55) | level: Beginner | tags: feedparser, namedtuple
 
 - [x] [75. Parse Unix cal to a weekday mapping](/75) | [on codechalleng.es](https://codechalleng.es/bites/75) | level: Advanced | tags: re, Unix, zip
