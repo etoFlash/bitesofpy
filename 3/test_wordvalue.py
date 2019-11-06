@@ -1,10 +1,6 @@
-import os
-
-
 from wordvalue import load_words, calc_word_value, max_word_value
 
-if not os.path.exists("tmp"):
-    os.mkdir("tmp")
+
 words = load_words()
 
 

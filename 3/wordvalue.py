@@ -2,8 +2,9 @@ import os
 import urllib.request
 
 # PREWORK
-DICTIONARY = os.path.join('tmp', 'dictionary.txt')
-urllib.request.urlretrieve('http://bit.ly/2iQ3dlZ', DICTIONARY)
+# for local test in Windows need to replace "/tmp" -> "tmp" and create dir "tmp"
+DICTIONARY = os.path.join("/tmp", "dictionary.txt")
+urllib.request.urlretrieve("http://bit.ly/2iQ3dlZ", DICTIONARY)
 scrabble_scores = [(1, "E A O I N R T L S U"), (2, "D G"), (3, "B C M P"),
                    (4, "F H V W Y"), (5, "K"), (8, "J X"), (10, "Q Z")]
 LETTER_SCORES = {letter: score for score, letters in scrabble_scores
@@ -25,4 +26,4 @@ def calc_word_value(word):
 
 def max_word_value(words):
     """Given a list of words calculate the word with the maximum value and return it"""
-    return sorted(words, key=calc_word_value)[-1]
+    return max(words, key=calc_word_value)
