@@ -10,6 +10,8 @@ Repo with my solutions of Python Exercises (Bites of Py) from site https://codec
 
 List:
 
+- [x] [3. Word Values](/3) | [on codechalleng.es](https://codechalleng.es/bites/3) | level: Intermediate | tags: max, Scrabble, sum
+
 - [x] [8. Rotate string characters](/8) | [on codechalleng.es](https://codechalleng.es/bites/8) | level: Beginner | tags: deque, slicing
 
 - [x] [15. Enumerate 2 sequences](/15) | [on codechalleng.es](https://codechalleng.es/bites/15) | level: Beginner | tags: enumerate, string formatting
