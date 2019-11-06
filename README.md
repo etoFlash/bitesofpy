@@ -12,6 +12,10 @@ List:
 
 - [x] [8. Rotate string characters](/8) | [on codechalleng.es](https://codechalleng.es/bites/8) | level: Beginner | tags: deque, slicing
 
+- [x] [15. Enumerate 2 sequences](/15) | [on codechalleng.es](https://codechalleng.es/bites/15) | level: Beginner | tags: enumerate, string formatting
+
+- [x] [16. PyBites date generator](/16) | [on codechalleng.es](https://codechalleng.es/bites/16) | level: Beginner | tags: datetime, generators
+
 - [x] [43. Force keyword arguments](/43) | [on codechalleng.es](https://codechalleng.es/bites/43) | level: Beginner | tags: function arguments, kwargs
 
 - [x] [46. You are a programmer! Code Fizz Buzz](/46) | [on codechalleng.es](https://codechalleng.es/bites/46) | level: Beginner | tags: fizzbuzz
