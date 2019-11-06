@@ -29,3 +29,5 @@ List:
 - [x] [110. Type conversion and exception handling](/110) | [on codechalleng.es](https://codechalleng.es/bites/110) | level: Into | tags: exception handling, raise, type casting
 
 - [x] [180. Group names by country](/180) | [on codechalleng.es](https://codechalleng.es/bites/180) | level: Beginner | tags: collections, defaultdict, groupby
+
+- [x] [225. Swap case PyBites characters](/225) | [on codechalleng.es](https://codechalleng.es/bites/225) | level: Beginner | tags: looping, string manipulation, string parsing
