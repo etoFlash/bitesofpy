@@ -9,13 +9,15 @@ import os
 import requests
 import zipfile
 import traceback
+LIST_PYBITES = "List of PyBites:"
 files_to_unzip = []
 files_unzipped = []
 unzip_errors = []
+readme = []
 num = 0
 pat_filename = r".*?([0-9]{1,3})\.zip"
 pat_title = r"<title>.*?(([0-9]{1,3}).*?)</title>"
-pat_tags = r"<a class=\"tag\" href=\"(.*?)\">(.*?)</a>"
+pat_tags = r"<a class=\"tag\" href=\".*?\">(.*?)</a>"
 pat_level = r"<img class=\"biteImg\" src=\".*?\" alt=\"(.*?) level\">"
 
 for file in glob.glob("*.zip"):
@@ -34,9 +36,20 @@ for file in glob.glob("*.zip"):
             assert num == re_title.group(2), f"Title and file Bite's numbers should be match"
             title = re_title.group(1)
             list_tags = re.findall(pat_tags, str(r.content))
-            tags = ", ".join(t for _, t in list_tags if t != "+")
+            tags = ", ".join(t for t in list_tags if t != "+")
             level = re.search(pat_level, str(r.content)).group(1)
-            print(f"title={title}; tags={tags}; level={level}")
+            if not readme:
+                with open("README.md", "r") as f:
+                    readme = f.read().splitlines()
+            new_line = f"| | [{title}](/{num}) | [(click)](https://codechalleng.es/bites/{num}) | {level} | {tags} |"
+            for line in readme[readme.index(LIST_PYBITES) + 4:]:
+                r = re.search(r"\(/([0-9]{1,3})\)", line)
+                if r:
+                    if int(num) < int(r.group(1)):
+                        readme.insert(readme.index(line), new_line)
+                        break
+                if readme.index(line) == len(readme) - 1:
+                    readme.append(new_line)
         except Exception as e:
             unzip_errors.append(f"fall of getting info from codechalleng.es:\n[{traceback.format_exc()[:-1]}]")
             continue
@@ -60,3 +73,7 @@ if files_to_unzip:
         print(f"{i + 1}) {file} - {reason}")
 if not files_unzipped and not files_to_unzip:
     print("Nothing to process")
+
+if readme:
+    with open("README.md", "w") as f:
+        f.write("\n".join(readme))

@@ -8,7 +8,7 @@ Repo with my solutions of Python Exercises (Bites of Py) from site https://codec
 
 Репозиторий с моими решениями задач на Python (Bites of Py) с сайта https://codechalleng.es/bites/.
 
-List:
+List of PyBites:
 
 | Done | Name (link in repo) | On PyBites | Level | Tags |
 | --- | --- | --- | --- | --- |
