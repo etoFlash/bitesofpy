@@ -36,7 +36,7 @@ for file in glob.glob("*.zip"):
             if not readme:
                 with open("README.md", "r") as f:
                     readme = f.read().splitlines()
-            new_line = f"| | [{title}](/{num}) | [(click)](https://codechalleng.es/bites/{num}) | {level} | {tags} |"
+            new_line = f"|  | [{title}](/{num}) | [(click)](https://codechalleng.es/bites/{num}) | {level} | {tags} |"
             for line in readme[readme.index(LIST_PYBITES) + 4:]:
                 r = re.search(r"\(/([0-9]{1,3})\)", line)
                 if r:
