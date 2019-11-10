@@ -14,6 +14,7 @@ List of PyBites:
 | --- | --- | --- | --- | --- |
 | ✔ | [2. Regex Fun](/2) | [(click)](https://codechalleng.es/bites/2) | Advanced | findall, re, regular expressions |
 | ✔️ | [3. Word Values](/3) | [(click)](https://codechalleng.es/bites/3) | Intermediate | max, Scrabble, sum |
+| ✔ | [4. Top 10 PyBites tags](/4) | [(click)](https://codechalleng.es/bites/4) | Intermediate | Counter, findall, regular expressions |
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
 | ✔️ | [15. Enumerate 2 sequences](/15) | [(click)](https://codechalleng.es/bites/15) | Beginner | enumerate, string formatting |
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
