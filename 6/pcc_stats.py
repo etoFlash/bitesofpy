@@ -6,7 +6,6 @@ import urllib.request
 import re
 
 # prep
-# for local test in Windows need to replace "/tmp" -> "tmp" and create dir "tmp"
 temp_file = os.path.join('/tmp', 'dir_names')
 urllib.request.urlretrieve('http://bit.ly/2ABUTjv', temp_file)
 

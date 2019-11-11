@@ -2,7 +2,6 @@ import os
 import urllib.request
 
 # PREWORK
-# for local test in Windows need to replace "/tmp" -> "tmp" and create dir "tmp"
 DICTIONARY = os.path.join("/tmp", "dictionary.txt")
 urllib.request.urlretrieve("http://bit.ly/2iQ3dlZ", DICTIONARY)
 scrabble_scores = [(1, "E A O I N R T L S U"), (2, "D G"), (3, "B C M P"),

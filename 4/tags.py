@@ -4,7 +4,6 @@ import re
 from collections import Counter
 
 # prep
-# for local test in Windows need to replace "/tmp" -> "tmp" and create dir "tmp"
 temp_file = os.path.join("/tmp", "feed")
 urllib.request.urlretrieve(
     "https://bites-data.s3.us-east-2.amazonaws.com/feed",
