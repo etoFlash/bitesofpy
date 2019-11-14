@@ -17,7 +17,7 @@ List of PyBites:
 | ✔️ | [4. Top 10 PyBites tags](/4) | [(click)](https://codechalleng.es/bites/4) | Intermediate | Counter, findall, regular expressions |
 | ✔️ | [6. PyBites Die Hard](/6) | [(click)](https://codechalleng.es/bites/6) | Intermediate | Counter, file processing, generators, namedtuple |
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
-| ✔ | [9. Palindromes](/9) | [(click)](https://codechalleng.es/bites/9) | Intermediate | list comprehensions, max, reverse |
+| ✔️ | [9. Palindromes](/9) | [(click)](https://codechalleng.es/bites/9) | Intermediate | list comprehensions, max, reverse |
 | ✔️ | [15. Enumerate 2 sequences](/15) | [(click)](https://codechalleng.es/bites/15) | Beginner | enumerate, string formatting |
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
@@ -30,4 +30,5 @@ List of PyBites:
 | ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Into | dict, exception handling, format, string manipulation, ternary |
 | ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Into | exception handling, raise, type casting |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
+| ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |

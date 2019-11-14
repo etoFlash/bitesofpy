@@ -1,0 +1,12 @@
+<p>Complete the <code>validate_license</code> function writing a regular expression that matches a PyBites license key which:</p> <ul> <li>Starts with <i>PB</i>,</li> <li>following 4 times dash (-) and 8 chars which can be upper case chars or digits,</li> <li>for example: <i>PB-U8N435EH-PG65PW87-IXPWQG5T-898XSZI4</i> would be a valid license key.</li> </ul> <p>Return a <code>bool</code> (we added some type hinting for convenience).</p><p>Example how this function would work: <pre>
+>>> import re
+>>> from license import validate_license
+>>> validate_license('PB-U8N435EH-PG65PW87-IXPWQG5T-898XSZI4')
+True
+>>> validate_license('pb-U8N435EH-PG65PW87-IXPWQG5T-898XSZI4')
+False
+>>> validate_license('bogus')
+False
+>>> validate_license('PB-U8N435EH-PG65PW87-IXPWQG5T-898XSZ..')
+False
+</pre></p><p>Have fun and code more Python!</p>
