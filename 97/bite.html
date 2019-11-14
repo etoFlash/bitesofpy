@@ -1,0 +1,16 @@
+<p>In this Bite we use <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a> to scrape US holidays from <a href="https://www.officeholidays.com/countries/usa/index.php" target="_blank">OfficeHolidays</a> to make a lookup of holidays per month.</p><p>Check the HTML (<a href="https://bit.ly/2LG098I" target="_blank">here</a>) for a <code>table</code> with CSS class <code>list-table</code> and parse its data. You need to populate the given <code>holidays defaultdict</code> like this:<pre>
+  >>> from pprint import pprint as pp
+  >>> from holidays import get_us_bank_holidays
+  >>> pp(get_us_bank_holidays())
+  defaultdict(<class 'list'>,
+              {'01': ["New Year's Day", 'Martin Luther King Jr. Day'],
+               '02': ["Presidents' Day"],
+               '04': ['Emancipation Day'],
+               '05': ["Mother's Day", 'Memorial Day'],
+               '06': ["Father's Day"],
+               '07': ['Independence Day'],
+               '09': ['Labor Day'],
+               '10': ['Columbus Day'],
+               '11': ['Veterans Day', 'Thanksgiving', 'Day after Thanksgiving'],
+               '12': ['Christmas Day']})
+</pre></p><p>By the way, watch out for trailing spaces when parsing the holidays. Have fun and keep coding in Python!</p>

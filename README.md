@@ -25,6 +25,7 @@ List of PyBites:
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
+|  | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Into | f-strings, if/else |
 | ✔️ | [105. Slice and dice](/105) | [(click)](https://codechalleng.es/bites/105) | Into | replace, slicing, split, string module, strip |
 | ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Into | dict, exception handling, format, string manipulation, ternary |
