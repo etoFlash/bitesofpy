@@ -12,7 +12,7 @@ unzip_errors = []
 readme = []
 pat_filename = r".*?([0-9]{1,3})\.zip"
 pat_title = r"<title>.*?(([0-9]{1,3}).*?)</title>"
-pat_tags = r"<a class=\"tag\" href=\".*?\">(.*?)</a>"
+pat_tags = r"<a class=\"tag.*?\" href=\".*?\">(.*?)</a>"
 pat_level = r"<img class=\"biteImg\" src=\".*?\" alt=\"(.*?) level\">"
 
 
