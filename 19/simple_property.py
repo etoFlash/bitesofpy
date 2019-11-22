@@ -10,4 +10,4 @@ class Promo:
 
     @property
     def expired(self):
-        return NOW > self.expires
+        return datetime.now() > self.expires
