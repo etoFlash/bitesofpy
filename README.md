@@ -18,7 +18,7 @@ List of PyBites:
 | ✔️ | [6. PyBites Die Hard](/6) | [(click)](https://codechalleng.es/bites/6) | Intermediate | Counter, file processing, generators, namedtuple |
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
 | ✔️ | [9. Palindromes](/9) | [(click)](https://codechalleng.es/bites/9) | Intermediate | list comprehensions, max, reverse |
-|  | [12. Write a user validation function](/12) | [(click)](https://codechalleng.es/bites/12) | Intermediate | classes, exception handling, namedtuple |
+| ✔️ | [12. Write a user validation function](/12) | [(click)](https://codechalleng.es/bites/12) | Intermediate | classes, exception handling, namedtuple |
 | ✔️ | [15. Enumerate 2 sequences](/15) | [(click)](https://codechalleng.es/bites/15) | Beginner | enumerate, string formatting |
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
@@ -31,7 +31,7 @@ List of PyBites:
 | ✔️ | [105. Slice and dice](/105) | [(click)](https://codechalleng.es/bites/105) | Into | replace, slicing, split, string module, strip |
 | ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Into | dict, exception handling, format, string manipulation, ternary |
 | ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Into | exception handling, raise, type casting |
-|  | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
+| ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |
