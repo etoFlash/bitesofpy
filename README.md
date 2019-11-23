@@ -19,6 +19,7 @@ List of PyBites:
 | ✔️ | [7. Parsing dates from logs](/7) | [(click)](https://codechalleng.es/bites/7) | Intermediate | datetime, file processing |
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
 | ✔️ | [9. Palindromes](/9) | [(click)](https://codechalleng.es/bites/9) | Intermediate | list comprehensions, max, reverse |
+| ✔️ | [10. Practice exceptions](/10) | [(click)](https://codechalleng.es/bites/10) | Intermediate | exception handling, raise |
 | ✔️ | [12. Write a user validation function](/12) | [(click)](https://codechalleng.es/bites/12) | Intermediate | classes, exception handling, namedtuple |
 | ✔️ | [15. Enumerate 2 sequences](/15) | [(click)](https://codechalleng.es/bites/15) | Beginner | enumerate, string formatting |
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
