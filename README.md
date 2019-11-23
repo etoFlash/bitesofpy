@@ -16,6 +16,7 @@ List of PyBites:
 | ✔️ | [3. Word Values](/3) | [(click)](https://codechalleng.es/bites/3) | Intermediate | max, Scrabble, sum |
 | ✔️ | [4. Top 10 PyBites tags](/4) | [(click)](https://codechalleng.es/bites/4) | Intermediate | Counter, findall, regular expressions |
 | ✔️ | [6. PyBites Die Hard](/6) | [(click)](https://codechalleng.es/bites/6) | Intermediate | Counter, file processing, generators, namedtuple |
+| ✔️ | [7. Parsing dates from logs](/7) | [(click)](https://codechalleng.es/bites/7) | Intermediate | datetime, file processing |
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
 | ✔️ | [9. Palindromes](/9) | [(click)](https://codechalleng.es/bites/9) | Intermediate | list comprehensions, max, reverse |
 | ✔️ | [12. Write a user validation function](/12) | [(click)](https://codechalleng.es/bites/12) | Intermediate | classes, exception handling, namedtuple |

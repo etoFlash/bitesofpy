@@ -1,0 +1,5 @@
+<p>In this bite we will look at <a href="http://bit.ly/2AKSIbf" target="_blank">this small server log</a> finding the <strong>first</strong> and <strong>last</strong> system shutdown events: <pre>
+INFO 2014-07-03T23:27:51 supybot Shutdown initiated.
+...
+INFO 2014-07-03T23:31:22 supybot Shutdown initiated.
+</pre></p><p>You need to calculate the time between these two events. First extract the timestamps from the log entries and convert them to <code>datetime</code> objects. Then use <code>datetime.timedelta</code> to calculate the time difference between them.</p><p>You can assume the logs are sorted in ascending order. Check out the docstrings and the <i>TESTS</i> for more info.</p><p>Good luck and keep calm and code in Python!</p>
