@@ -26,6 +26,7 @@ List of PyBites:
 | ✔️ | [19. Write a simple property](/19) | [(click)](https://codechalleng.es/bites/19) | Beginner | datetime, properties |
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
+| ✔️ | [45. Keep a queue of last n items](/45) | [(click)](https://codechalleng.es/bites/45) | Beginner | deque |
 | ✔️ | [46. You are a programmer! Code Fizz Buzz](/46) | [(click)](https://codechalleng.es/bites/46) | Beginner | fizzbuzz |
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
