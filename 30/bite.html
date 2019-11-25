@@ -1,0 +1,9 @@
+<p>In this Bite we are going to parse a <i>csv</i> movie dataset to identify the directors with the <i>highest rated movies.</i></p><ol><li>Write <code>get_movies_by_director</code>: use <code>csv.DictReader</code> to convert <i>movie_metadata.csv</i> into a <code>(default)dict</code> of <code>list</code>s of <i>Movie</i> <code>namedtuple</code>s. Convert/filter the data: <br><ul><li>Only extract director_name, movie_title, title_year and imdb_score.</li><li>Type conversions: <code>title_year</code> -> <code>int</code> / <code>imdb_score</code> -> <code>float</code></li><li><strong>Discard any movies older than 1960.</strong></li></ul>
+<p>Here is an extract:<pre>....
+{ 'Woody Allen': [
+    Movie(title='Midnight in Paris', year=2011, score=7.7),
+    Movie(title='The Curse of the Jade Scorpion', year=2001, score=6.8),
+    Movie(title='To Rome with Love', year=2012, score=6.3),  ....
+    ], ...
+}
+</pre></li><li>Write the <code>calc_mean_score</code> helper that takes a list of Movie <code>namedtuple</code>s and calculates the mean IMDb score, returning the score rounded to 1 decimal place.</li><li>Complete <code>get_average_scores</code> which takes the directors data structure returned by <code>get_movies_by_director</code> (see 1.) and returns a list of tuples (<code>director</code>, <code>average_score</code>) ordered by highest score in descending order. Only take directors into account with >= <code>MIN_MOVIES</code></li></ol><p>See the tests for more info. This could be tough one, but we really hope you learn a thing or two. Good luck and keep calm and code in Python!</p>
