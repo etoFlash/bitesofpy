@@ -25,6 +25,7 @@ List of PyBites:
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
 | ✔️ | [18. Find the most common word](/18) | [(click)](https://codechalleng.es/bites/18) | Intermediate | Counter, data analysis, list comprehensions |
 | ✔️ | [19. Write a simple property](/19) | [(click)](https://codechalleng.es/bites/19) | Beginner | datetime, properties |
+|  | [26. Dictionary comprehensions are awesome](/26) | [(click)](https://codechalleng.es/bites/26) | Beginner | dictionary comprehensions |
 | ✔️ | [30. Movie data analysis](/30) | [(click)](https://codechalleng.es/bites/30) | Intermediate | data analysis, defaultdict, mean, movie data, namedtuple, sorting |
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
