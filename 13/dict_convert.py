@@ -11,7 +11,7 @@ blog = dict(name='PyBites',
             site='https://pybit.es')
 
 # define namedtuple here
-Blog = namedtuple('Blog', 'name, founders, started, tags, location, site')
+Blog = namedtuple('Blog', blog.keys())
 
 
 def dict2nt(dict_):
@@ -19,11 +19,5 @@ def dict2nt(dict_):
 
 
 def nt2json(nt):
-    result = dict()
-    for key, value in nt._asdict().items():
-        if type(value) == datetime:
-            result[key] = str(value)
-        else:
-            result[key] = value
-
-    return json.dumps(result)
+    nt = nt._replace(started=str(nt.started))
+    return json.dumps(nt._asdict())
