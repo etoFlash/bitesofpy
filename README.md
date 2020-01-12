@@ -49,3 +49,4 @@ List of PyBites:
 | ✔️ | [238. Write tests for Fibonacci](/238) | [(click)](https://codechalleng.es/bites/238) | Beginner | pytest, Test Bite |
 | ✔️ | [239. Test FizzBuzz](/239) | [(click)](https://codechalleng.es/bites/239) | Intermediate | pytest, Test Bite |
 | ✔️ | [240. Write tests for an Account class](/240) | [(click)](https://codechalleng.es/bites/240) | Advanced | pytest, Test Bite |
+| ✔️ | [254. Global vs local variables](/254) | [(click)](https://codechalleng.es/bites/254) | Beginner | global, sum |
