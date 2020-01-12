@@ -42,6 +42,7 @@ List of PyBites:
 | ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Into | exception handling, raise, type casting |
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
+| ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |
