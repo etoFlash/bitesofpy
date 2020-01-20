@@ -1,0 +1,13 @@
+<p>A quick Bite to practice some string parsing extracting a users <code>dict</code> from a password file.</p>
+<p>Complete <code>get_users</code> is how it works:<pre>
+>>> from users import get_users
+>>> pw = """
+... postfix:x:108:112::/var/spool/postfix:/bin/false
+... ssh-rsa:x:1004:1004::/home/ssh-rsa:/bin/bash
+... artagnon:x:1005:1005:Ramkumar R,,,,Git GSOC:/home/artagnon:/bin/bash
+... """
+>>> get_users(pw)
+{'postfix': 'unknown', 'ssh-rsa': 'unknown', 'artagnon': 'Ramkumar R Git GSOC'}
+</pre></p>
+<p>So keys are usernames, values are names. Note that commas inside the name get replace by a single space. Trailing commas (not in this example) get stripped off.</p>
+<p>Have fun and keep calm and code in Python!</p>

@@ -50,3 +50,4 @@ List of PyBites:
 | ✔️ | [239. Test FizzBuzz](/239) | [(click)](https://codechalleng.es/bites/239) | Intermediate | pytest, Test Bite |
 | ✔️ | [240. Write tests for an Account class](/240) | [(click)](https://codechalleng.es/bites/240) | Advanced | pytest, Test Bite |
 | ✔️ | [254. Global vs local variables](/254) | [(click)](https://codechalleng.es/bites/254) | Beginner | global, sum |
+| ✔️ | [257. Extract users dict from a multiline string](/257) | [(click)](https://codechalleng.es/bites/257) | Beginner | dict, string parsing |
