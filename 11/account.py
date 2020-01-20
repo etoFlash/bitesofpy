@@ -1,3 +1,7 @@
+from functools import total_ordering
+
+
+@total_ordering
 class Account:
 
     def __init__(self, name, start_balance=0):
@@ -10,27 +14,26 @@ class Account:
         return self.start_balance + sum(self._transactions)
 
     # add dunder methods below
-    def __len__(self):
-        return len(self._transactions)
-
-    def __add__(self, other):
-        if not isinstance(other, int):
-            raise ValueError
-        self._transactions.append(other)
-
-    def __sub__(self, other):
-        if not isinstance(other, int):
-            raise ValueError
-        self._transactions.append(-other)
-
-    def __gt__(self, other):
-        return self.balance > other.balance
-
-    def __ge__(self, other):
-        return self.balance >= other.balance
+    def _validate(self, amount):
+        if not isinstance(amount, int):
+            raise ValueError("Amount should be int")
 
     def __eq__(self, other):
         return self.balance == other.balance
+
+    def __lt__(self, other):
+        return self.balance < other.balance
+
+    def __len__(self):
+        return len(self._transactions)
+
+    def __add__(self, amount):
+        self._validate(amount)
+        self._transactions.append(amount)
+
+    def __sub__(self, amount):
+        self._validate(amount)
+        self._transactions.append(-amount)
 
     def __getitem__(self, item):
         return self._transactions[item]
