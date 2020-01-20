@@ -22,6 +22,7 @@ List of PyBites:
 | ✔️ | [10. Practice exceptions](/10) | [(click)](https://codechalleng.es/bites/10) | Intermediate | exception handling, raise |
 | ✔️ | [12. Write a user validation function](/12) | [(click)](https://codechalleng.es/bites/12) | Intermediate | classes, exception handling, namedtuple |
 | ✔️ | [13. Convert dict to namedtuple/json](/13) | [(click)](https://codechalleng.es/bites/13) | Intermediate | dict, json, namedtuple |
+| ✔️ | [14. Generate a table of n sequences](/14) | [(click)](https://codechalleng.es/bites/14) | Intermediate | generators, zip |
 | ✔️ | [15. Enumerate 2 sequences](/15) | [(click)](https://codechalleng.es/bites/15) | Beginner | enumerate, string formatting |
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
 | ✔️ | [18. Find the most common word](/18) | [(click)](https://codechalleng.es/bites/18) | Intermediate | Counter, data analysis, list comprehensions |
