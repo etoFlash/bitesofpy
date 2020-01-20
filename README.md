@@ -12,9 +12,11 @@ List of PyBites:
 
 | Done | Name (link in repo) | On PyBites | Level | Tags |
 | --- | --- | --- | --- | --- |
+| ✔️ | [1. Sum n numbers](/1) | [(click)](https://codechalleng.es/bites/1) | Beginner | default args, None, range, sum |
 | ✔️ | [2. Regex Fun](/2) | [(click)](https://codechalleng.es/bites/2) | Advanced | findall, re, regular expressions |
 | ✔️ | [3. Word Values](/3) | [(click)](https://codechalleng.es/bites/3) | Intermediate | max, Scrabble, sum |
 | ✔️ | [4. Top 10 PyBites tags](/4) | [(click)](https://codechalleng.es/bites/4) | Intermediate | Counter, findall, regular expressions |
+| ✔️ | [5. Parse a list of names](/5) | [(click)](https://codechalleng.es/bites/5) | Beginner | lambda, list comprehensions, min, sorting |
 | ✔️ | [6. PyBites Die Hard](/6) | [(click)](https://codechalleng.es/bites/6) | Intermediate | Counter, file processing, generators, namedtuple |
 | ✔️ | [7. Parsing dates from logs](/7) | [(click)](https://codechalleng.es/bites/7) | Intermediate | datetime, file processing |
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
@@ -39,7 +41,13 @@ List of PyBites:
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Into | f-strings, if/else |
+| ✔️ | [102. Infinite loop, input, continue and break](/102) | [(click)](https://codechalleng.es/bites/102) | Intro | break, continue, input, mock.patch, while |
+| ✔️ | [103. Loop through a dictionary and pluralise a word](/103) | [(click)](https://codechalleng.es/bites/103) | Intro | dict, looping |
+| ✔️ | [104. Split and join](/104) | [(click)](https://codechalleng.es/bites/104) | Intro | join, split |
 | ✔️ | [105. Slice and dice](/105) | [(click)](https://codechalleng.es/bites/105) | Into | replace, slicing, split, string module, strip |
+| ✔️ | [106. Strip out vowels and count the number of replacements](/106) | [(click)](https://codechalleng.es/bites/106) | Intro | counting, regular expressions, replace, string manipulation, Zen of Python |
+| ✔️ | [107. Filter numbers with a list comprehension](/107) | [(click)](https://codechalleng.es/bites/107) | Intro | list comprehensions, modulo |
+| ✔️ | [108. Loop over a dict of namedtuples calculating a total score](/108) | [(click)](https://codechalleng.es/bites/108) | Intro | counting, dict, namedtuple |
 | ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Into | dict, exception handling, format, string manipulation, ternary |
 | ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Into | exception handling, raise, type casting |
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
