@@ -8,5 +8,5 @@ SEPARATOR = ' | '
 
 
 def generate_table(*args):
-    for *t, in list(zip(*args)):
+    for t in zip(*args):
         yield SEPARATOR.join(map(str, t))
