@@ -20,6 +20,7 @@ List of PyBites:
 | ✔️ | [8. Rotate string characters](/8) | [(click)](https://codechalleng.es/bites/8) | Beginner | deque, slicing |
 | ✔️ | [9. Palindromes](/9) | [(click)](https://codechalleng.es/bites/9) | Intermediate | list comprehensions, max, reverse |
 | ✔️ | [10. Practice exceptions](/10) | [(click)](https://codechalleng.es/bites/10) | Intermediate | exception handling, raise |
+| ✔️ | [11. Enrich a class with dunder methods](/11) | [(click)](https://codechalleng.es/bites/11) | Advanced | dunder methods, properties |
 | ✔️ | [12. Write a user validation function](/12) | [(click)](https://codechalleng.es/bites/12) | Intermediate | classes, exception handling, namedtuple |
 | ✔️ | [13. Convert dict to namedtuple/json](/13) | [(click)](https://codechalleng.es/bites/13) | Intermediate | dict, json, namedtuple |
 | ✔️ | [14. Generate a table of n sequences](/14) | [(click)](https://codechalleng.es/bites/14) | Intermediate | generators, zip |
