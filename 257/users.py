@@ -11,10 +11,7 @@ def get_users(passwd: str) -> dict:
     result = {}
     for s in passwd.splitlines()[1:]:
         user = s.split(":")[0]
-        name = re.sub(",+", " ", s.split(":")[4]).strip()
-        if name:
-            result[user] = name
-        else:
-            result[user] = "unknown"
+        name = re.sub(r",+", r" ", s.split(":")[4]).strip()
+        result[user] = name or "unknown"
 
     return result
