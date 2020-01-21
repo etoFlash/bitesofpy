@@ -1,0 +1,24 @@
+<p>Did you know Python has a <code>statistics</code> module?</p><p>For this Bite we did a line count on our test code for 186 Bites, running this command: <code>wc -l */test_*.py|sort -n -k2|grep -v total > testfiles_number_loc.txt</code>. Output:<pre>
+$ head -5 testfiles_number_loc.txt
+      13 01/test_numbers.py
+      17 02/test_regex.py
+      23 03/test_wordvalue.py
+      15 04/test_tags.py
+      21 05/test_names.py
+       ...
+</pre></p><p>Complete the <code>stats</code> <code>dict</code> wih all the relevant metrics producing the following output:<pre>
+Basic statistics:
+- count     :     186
+- min       :       6
+- max       :     337
+- mean      :   43.74
+
+Population variance:
+- pstdev    :   43.04
+- pvariance : 1852.39
+
+Estimated variance for sample:
+- count     :   93.00
+- stdev     :   30.24
+- variance  :  914.36
+</pre></p><p>We already did the formatting for you, so just focus on completing <code>stats</code> using a combination of Python builtins and the <code>statistics</code> module.</p><p>We retrieved this example from <a href="https://pymotw.com/3/" target="_blank">Python 3 Module of the Week</a> (link provided upon resolving this Bite ...)</p><p>Make sure you check out <a href="https://docs.python.org/3/library/statistics.html" target="_blank"><code>statistics </code>docs</a> while coding this Bite. Other than that, keep calm and code some stats in Python!</p>
