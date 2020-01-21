@@ -31,6 +31,7 @@ List of PyBites:
 | ✔️ | [18. Find the most common word](/18) | [(click)](https://codechalleng.es/bites/18) | Intermediate | Counter, data analysis, list comprehensions |
 | ✔️ | [19. Write a simple property](/19) | [(click)](https://codechalleng.es/bites/19) | Beginner | datetime, properties |
 | ✔️ | [26. Dictionary comprehensions are awesome](/26) | [(click)](https://codechalleng.es/bites/26) | Beginner | dictionary comprehensions |
+| ✔️ | [27. Parse omdb movie json data](/27) | [(click)](https://codechalleng.es/bites/27) | Intermediate | APIs, glob, json, movie data |
 | ✔️ | [30. Movie data analysis](/30) | [(click)](https://codechalleng.es/bites/30) | Intermediate | data analysis, defaultdict, mean, movie data, namedtuple, sorting |
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
@@ -54,7 +55,7 @@ List of PyBites:
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
-|  | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
+| ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |
 | ✔️ | [238. Write tests for Fibonacci](/238) | [(click)](https://codechalleng.es/bites/238) | Beginner | fibonacci, pytest |
