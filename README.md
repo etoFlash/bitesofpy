@@ -63,3 +63,4 @@ List of PyBites:
 | ✔️ | [240. Write tests for an Account class](/240) | [(click)](https://codechalleng.es/bites/240) | Advanced | classes, pytest |
 | ✔️ | [254. Global vs local variables](/254) | [(click)](https://codechalleng.es/bites/254) | Beginner | global, sum |
 | ✔️ | [257. Extract users dict from a multiline string](/257) | [(click)](https://codechalleng.es/bites/257) | Beginner | dict, string parsing |
+| ✔️ | [259. Reverse complement](/259) | [(click)](https://codechalleng.es/bites/259) | Intermediate | bioinformatics, string manipulation, translate |
