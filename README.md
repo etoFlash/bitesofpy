@@ -40,6 +40,7 @@ List of PyBites:
 | ✔️ | [46. You are a programmer! Code Fizz Buzz](/46) | [(click)](https://codechalleng.es/bites/46) | Beginner | fizzbuzz |
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
+| ✔️ | [64. Fix a truncating zip function](/64) | [(click)](https://codechalleng.es/bites/64) | Beginner | itertools, zip |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Into | f-strings, if/else |
