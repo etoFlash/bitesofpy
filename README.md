@@ -28,6 +28,7 @@ List of PyBites:
 | ✔️ | [14. Generate a table of n sequences](/14) | [(click)](https://codechalleng.es/bites/14) | Intermediate | generators, zip |
 | ✔️ | [15. Enumerate 2 sequences](/15) | [(click)](https://codechalleng.es/bites/15) | Beginner | enumerate, string formatting |
 | ✔️ | [16. PyBites date generator](/16) | [(click)](https://codechalleng.es/bites/16) | Beginner | datetime, generators |
+| ✔️ | [17. Form teams from a group of friends](/17) | [(click)](https://codechalleng.es/bites/17) | Intermediate | itertools |
 | ✔️ | [18. Find the most common word](/18) | [(click)](https://codechalleng.es/bites/18) | Intermediate | Counter, data analysis, list comprehensions |
 | ✔️ | [19. Write a simple property](/19) | [(click)](https://codechalleng.es/bites/19) | Beginner | datetime, properties |
 | ✔️ | [26. Dictionary comprehensions are awesome](/26) | [(click)](https://codechalleng.es/bites/26) | Beginner | dictionary comprehensions |
