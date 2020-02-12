@@ -32,6 +32,7 @@ List of PyBites:
 | ✔️ | [18. Find the most common word](/18) | [(click)](https://codechalleng.es/bites/18) | Intermediate | Counter, data analysis, list comprehensions |
 | ✔️ | [19. Write a simple property](/19) | [(click)](https://codechalleng.es/bites/19) | Beginner | datetime, properties |
 | ✔️ | [21. Query a nested data structure](/21) | [(click)](https://codechalleng.es/bites/21) | Beginner | data structures, dictionary comprehensions, list comprehensions, sorting |
+| ✔️ | [22. Write a decorator with argument](/22) | [(click)](https://codechalleng.es/bites/22) | Intermediate | decorators |
 | ✔️ | [26. Dictionary comprehensions are awesome](/26) | [(click)](https://codechalleng.es/bites/26) | Beginner | dictionary comprehensions |
 | ✔️ | [27. Parse omdb movie json data](/27) | [(click)](https://codechalleng.es/bites/27) | Intermediate | APIs, glob, json, movie data |
 | ✔️ | [30. Movie data analysis](/30) | [(click)](https://codechalleng.es/bites/30) | Intermediate | data analysis, defaultdict, mean, movie data, namedtuple, sorting |

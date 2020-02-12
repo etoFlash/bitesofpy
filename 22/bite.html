@@ -1,0 +1,5 @@
+<p>Write a <i>decorator</i> called <code>make_html</code> that wraps text inside one or more html tags. </p><p>As shown in the tests decorating <code>get_text</code> with <code>make_html</code> twice should wrap the text in the corresponding  html tags, so:</p><pre>@make_html('p')
+@make_html('strong')
+def get_text(text='I code with PyBites'):
+    return text
+</pre><p>- would return: <code>&lt;p>&lt;strong&gt;I code with PyBites&lt;/strong&gt;&lt;/p&gt;</code></p><p>Have fun and start to grok decorators!</p>
