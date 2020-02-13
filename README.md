@@ -60,6 +60,7 @@ List of PyBites:
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
+| ✔️ | [195. Analyze NBA Data with sqlite3](/195) | [(click)](https://codechalleng.es/bites/195) | Intermediate | data analysis, SQL, sqlite3 |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |
 | ✔️ | [238. Write tests for Fibonacci](/238) | [(click)](https://codechalleng.es/bites/238) | Beginner | fibonacci, pytest |
