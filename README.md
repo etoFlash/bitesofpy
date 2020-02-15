@@ -69,6 +69,7 @@ List of PyBites:
 | ✔️ | [238. Write tests for Fibonacci](/238) | [(click)](https://codechalleng.es/bites/238) | Beginner | fibonacci, pytest |
 | ✔️ | [239. Test FizzBuzz](/239) | [(click)](https://codechalleng.es/bites/239) | Intermediate | fizzbuzz, pytest |
 | ✔️ | [240. Write tests for an Account class](/240) | [(click)](https://codechalleng.es/bites/240) | Advanced | classes, pytest |
+| ✔️ | [241. Write tests for list_to_decimal](/241) | [(click)](https://codechalleng.es/bites/241) | Beginner | exception handling, pytest |
 | ✔️ | [254. Global vs local variables](/254) | [(click)](https://codechalleng.es/bites/254) | Beginner | global, sum |
 | ✔️ | [257. Extract users dict from a multiline string](/257) | [(click)](https://codechalleng.es/bites/257) | Beginner | dict, string parsing |
 | ✔️ | [259. Reverse complement](/259) | [(click)](https://codechalleng.es/bites/259) | Intermediate | bioinformatics, string manipulation, translate |
