@@ -37,6 +37,7 @@ List of PyBites:
 | ✔️ | [27. Parse omdb movie json data](/27) | [(click)](https://codechalleng.es/bites/27) | Intermediate | APIs, glob, json, movie data |
 | ✔️ | [29. Martin&#x27;s IQ test](/29) | [(click)](https://codechalleng.es/bites/29) | Beginner | enumerate, string module |
 | ✔️ | [30. Movie data analysis](/30) | [(click)](https://codechalleng.es/bites/30) | Intermediate | data analysis, defaultdict, mean, movie data, namedtuple, sorting |
+| ✔️ | [37. Rewrite a for loop using recursion](/37) | [(click)](https://codechalleng.es/bites/37) | Beginner | recursion, reverse |
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
 | ✔️ | [40. Write a binary search algorithm](/40) | [(click)](https://codechalleng.es/bites/40) | Advanced | algorithms, binary search |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
