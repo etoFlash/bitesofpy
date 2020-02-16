@@ -47,6 +47,7 @@ List of PyBites:
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
 | ✔️ | [64. Fix a truncating zip function](/64) | [(click)](https://codechalleng.es/bites/64) | Beginner | itertools, zip |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
+| ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Into | f-strings, if/else |
 | ✔️ | [102. Infinite loop, input, continue and break](/102) | [(click)](https://codechalleng.es/bites/102) | Intro | break, continue, input, mock.patch, while |
