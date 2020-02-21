@@ -46,6 +46,7 @@ List of PyBites:
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
 | ✔️ | [64. Fix a truncating zip function](/64) | [(click)](https://codechalleng.es/bites/64) | Beginner | itertools, zip |
+| ✔️ | [69. Regex Fun - part II](/69) | [(click)](https://codechalleng.es/bites/69) | Advanced | re, regular expressions |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
