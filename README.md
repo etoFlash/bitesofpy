@@ -35,6 +35,7 @@ List of PyBites:
 | ✔️ | [22. Write a decorator with argument](/22) | [(click)](https://codechalleng.es/bites/22) | Intermediate | decorators |
 | ✔️ | [26. Dictionary comprehensions are awesome](/26) | [(click)](https://codechalleng.es/bites/26) | Beginner | dictionary comprehensions |
 | ✔️ | [27. Parse omdb movie json data](/27) | [(click)](https://codechalleng.es/bites/27) | Intermediate | APIs, glob, json, movie data |
+| ✔️ | [28. Converting date strings to datetimes](/28) | [(click)](https://codechalleng.es/bites/28) | Intermediate | Counter, datetime, findall |
 | ✔️ | [29. Martin&#x27;s IQ test](/29) | [(click)](https://codechalleng.es/bites/29) | Beginner | enumerate, string module |
 | ✔️ | [30. Movie data analysis](/30) | [(click)](https://codechalleng.es/bites/30) | Intermediate | data analysis, defaultdict, mean, movie data, namedtuple, sorting |
 | ✔️ | [37. Rewrite a for loop using recursion](/37) | [(click)](https://codechalleng.es/bites/37) | Beginner | recursion, reverse |
