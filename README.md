@@ -41,6 +41,7 @@ List of PyBites:
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
 | ✔️ | [40. Write a binary search algorithm](/40) | [(click)](https://codechalleng.es/bites/40) | Advanced | algorithms, binary search |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
+| ✔️ | [44. License key generator](/44) | [(click)](https://codechalleng.es/bites/44) | Beginner | list comprehensions, secrets, string module |
 | ✔️ | [45. Keep a queue of last n items](/45) | [(click)](https://codechalleng.es/bites/45) | Beginner | deque |
 | ✔️ | [46. You are a programmer! Code Fizz Buzz](/46) | [(click)](https://codechalleng.es/bites/46) | Beginner | fizzbuzz |
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
