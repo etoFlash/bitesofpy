@@ -53,6 +53,7 @@ List of PyBites:
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
+| ✔️ | [100. Display the last part of a file (Unix tail)](/100) | [(click)](https://codechalleng.es/bites/100) | Beginner | file processing, slicing, strip, Unix |
 | ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Into | f-strings, if/else |
 | ✔️ | [102. Infinite loop, input, continue and break](/102) | [(click)](https://codechalleng.es/bites/102) | Intro | break, continue, input, mock.patch, while |
 | ✔️ | [103. Loop through a dictionary and pluralise a word](/103) | [(click)](https://codechalleng.es/bites/103) | Intro | dict, looping |

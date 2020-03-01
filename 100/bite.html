@@ -1,0 +1,12 @@
+<p>Complete the function below simulating Unix' <code>tail</code>, for example: <pre>$ tail -3 test_tail.py
+# byte to str conversion and strip off last line's newline char
+expected = [line.decode("utf-8") for line in lines]
+assert tail(f.name, 10) == expected
+</pre></p><p>Complete the function below which receives (absolute) <code>filepath</code> and <code>n</code> lines to filter from the end which is returned in a list.</p><p>For example, if we call it on a file - stored in <code>filepath</code> - with this content:<pre>Hello world!
+We hope that you are learning a lot of Python.
+Have fun with our Bites of Py.
+Keep calm and code in Python!
+Become a PyBites ninja!
+</pre>... and give it <code>n</code> of 2 (= calling it as: <code>tail(filepath, 2)</code>), it should return this: <pre>['Keep calm and code in Python!',
+ 'Become a PyBites ninja!']
+</pre> (note: newlines are stripped off)</p><p>Have fun and let us know if you have any questions ...</p>
