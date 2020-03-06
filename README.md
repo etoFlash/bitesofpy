@@ -45,6 +45,7 @@ List of PyBites:
 | ✔️ | [44. License key generator](/44) | [(click)](https://codechalleng.es/bites/44) | Beginner | list comprehensions, secrets, string module |
 | ✔️ | [45. Keep a queue of last n items](/45) | [(click)](https://codechalleng.es/bites/45) | Beginner | deque |
 | ✔️ | [46. You are a programmer! Code Fizz Buzz](/46) | [(click)](https://codechalleng.es/bites/46) | Beginner | fizzbuzz |
+| ✔️ | [47. Write a new password field validator](/47) | [(click)](https://codechalleng.es/bites/47) | Intermediate | re, string module |
 | ✔️ | [48. Make a bar chart of new Safari books](/48) | [(click)](https://codechalleng.es/bites/48) | Intermediate | bar chart, data analysis |
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
