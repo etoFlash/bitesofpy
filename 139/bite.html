@@ -1,0 +1,17 @@
+<p>In this Bite you are going to calculate the amount of days you are on a coding streak (consecutive days coded. You are presented with this DB table like output of date/activity/count:</p><pre>
+data = """
+    +------------+------------+---------+
+    | date       | activity   | count   |
+    |------------+------------+---------|
+    | 2018-11-11 | pcc        | 1       |
+    | 2018-11-10 | 100d       | 1       |
+    | 2018-11-09 | 100d       | 2       |
+    | 2018-10-23 | pcc        | 1       |
+    | 2018-10-15 | pcc        | 1       |
+    | 2018-10-05 | bite       | 1       |
+    | 2018-09-21 | bite       | 4       |
+    | 2018-09-18 | bite       | 2       |
+    | 2018-09-18 | bite       | 4       |
+    +------------+------------+---------+
+"""</pre>
+<p>Here is what you need to do: </p><ul> <li>Complete <code>extract_dates</code> to extract <code>date</code> (not <code>datetime</code>) objects.</li> <li>Complete <code>calculate_streak</code> that takes those <code>date</code> objects and returns the streak in (<code>int</code>) days.</li> <li>Calculate back from <code>TODAY</code> that is set to <code>date(2018, 11, 12)</code>. Note that a streak can be > 0 if today or yesterday is in the date range. This is because we don't assume <i>today</i> to be over yet, so if yesterday was coded that is a valid continuation of a streak. If today was coded that counts towards the streak too of course.</li></ul><p>Have fun and keep calm and code in Python. Join our Slack (via <a href="https://codechalleng.es/settings/">Settings</a>) to learn and share more Python with other passionate Pythonistas.</p>

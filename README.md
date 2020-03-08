@@ -70,6 +70,7 @@ List of PyBites:
 | ✔️ | [125. Get the most recommended books](/125) | [(click)](https://codechalleng.es/bites/125) | Intermediate | beautifulsoup, Counter, default args, list comprehensions, requests |
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
+| ✔️ | [139. Calculate a coding streak in days](/139) | [(click)](https://codechalleng.es/bites/139) | Advanced | datetime, string manipulation, timedelta |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
