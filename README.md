@@ -79,6 +79,7 @@ List of PyBites:
 | ✔️ | [195. Analyze NBA Data with sqlite3](/195) | [(click)](https://codechalleng.es/bites/195) | Intermediate | data analysis, SQL, sqlite3 |
 | ✔️ | [205. Female speakers @ Pycon US](/205) | [(click)](https://codechalleng.es/bites/205) | Intermediate | beautifulsoup, counting, data wrangling, gender_guesser |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
+| ✔️ | [218. Create a sandwich decorator](/218) | [(click)](https://codechalleng.es/bites/218) | Beginner | decorators |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |
 | ✔️ | [238. Write tests for Fibonacci](/238) | [(click)](https://codechalleng.es/bites/238) | Beginner | fibonacci, pytest |
 | ✔️ | [239. Test FizzBuzz](/239) | [(click)](https://codechalleng.es/bites/239) | Intermediate | fizzbuzz, pytest |
