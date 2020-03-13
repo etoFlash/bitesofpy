@@ -52,6 +52,7 @@ List of PyBites:
 | ✔️ | [54. Nicer formatting of a poem or text](/54) | [(click)](https://codechalleng.es/bites/54) | Beginner | string manipulation, textwrap |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
 | ✔️ | [64. Fix a truncating zip function](/64) | [(click)](https://codechalleng.es/bites/64) | Beginner | itertools, zip |
+| ✔️ | [66. Calculate the running average of a sequence](/66) | [(click)](https://codechalleng.es/bites/66) | Beginner | enumerate, mean |
 | ✔️ | [68. Remove punctuation characters from a string](/68) | [(click)](https://codechalleng.es/bites/68) | Beginner | string manipulation, string module |
 | ✔️ | [69. Regex Fun - part II](/69) | [(click)](https://codechalleng.es/bites/69) | Advanced | re, regular expressions |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
