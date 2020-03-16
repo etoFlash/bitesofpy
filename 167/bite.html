@@ -1,0 +1,8 @@
+<p>In this Bite you are presented with another class, <code>User</code> this time.</p> <p>Like last Bite you are asked to complete it, see the <code>TODO</code>s in the code below:<ol> <li>Complete the <code>get_full_name</code> property (more on <i>properties</i> <a href="https://pybit.es/property-decorator.html" target="_blank">here</a>) that prints first and last name separated by a space.</li> <li>Complete the <code>username</code> property following its <i>docstring</i>.</li> <li>Complete the special representation <a href="https://dbader.org/blog/python-dunder-methods" target="_blank"><i>dunder methods</i></a>: <code>__str__</code> and <code>__repr__</code>. Look at the tests what they should return. Brace yourself for some bonus learning for a twist we added in <code>__repr__</code> (but as it's a Beginner Bite we give you a hint!)</li> </ol> </p> <p>Apart from <a href="https://stackoverflow.com/a/1438297" target="_blank">Ned's awesome answer on SO</a>, to give you an idea about the difference between <code>__str__</code> and <code>__repr__</code>, check out how <code>datetime</code> implements them:<pre>
+>>> from datetime import datetime
+>>> dt = datetime.now()
+>>> str(dt)
+'2019-02-04 23:05:27.376407'
+>>> repr(dt)
+'datetime.datetime(2019, 2, 4, 23, 5, 27, 376407)'
+</pre></p><p>Good luck and keep calm and code in Python!</p>

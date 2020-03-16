@@ -76,6 +76,7 @@ List of PyBites:
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [139. Calculate a coding streak in days](/139) | [(click)](https://codechalleng.es/bites/139) | Advanced | datetime, string manipulation, timedelta |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
+| ✔️ | [167. Complete a User class: properties and representation dunder methods](/167) | [(click)](https://codechalleng.es/bites/167) | Beginner | classes, dunder methods, f-strings, properties, __repr__, __str__, string manipulation |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
 | ✔️ | [193. Most upvoted StackOverflow Python questions](/193) | [(click)](https://codechalleng.es/bites/193) | Intermediate | beautifulsoup, requests, sorting, string matching, web scraping |
