@@ -56,6 +56,7 @@ List of PyBites:
 | ✔️ | [68. Remove punctuation characters from a string](/68) | [(click)](https://codechalleng.es/bites/68) | Beginner | string manipulation, string module |
 | ✔️ | [69. Regex Fun - part II](/69) | [(click)](https://codechalleng.es/bites/69) | Advanced | re, regular expressions |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
+| ✔️ | [77. New places to travel to](/77) | [(click)](https://codechalleng.es/bites/77) | Beginner | set, set operations |
 | ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
 | ✔️ | [82. Define a Score Enum and customize  it adding methods](/82) | [(click)](https://codechalleng.es/bites/82) | Intermediate | classmethod, enum, __str__ |
 | ✔️ | [91. Matching multiple strings](/91) | [(click)](https://codechalleng.es/bites/91) | Beginner | all, any, string matching |
