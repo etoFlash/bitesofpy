@@ -63,16 +63,16 @@ List of PyBites:
 | ✔️ | [91. Matching multiple strings](/91) | [(click)](https://codechalleng.es/bites/91) | Beginner | all, any, string matching |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [100. Display the last part of a file (Unix tail)](/100) | [(click)](https://codechalleng.es/bites/100) | Beginner | file processing, slicing, strip, Unix |
-| ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Into | f-strings, if/else |
+| ✔️ | [101. f-strings and a simple if/else](/101) | [(click)](https://codechalleng.es/bites/101) | Intro | f-strings, if/else |
 | ✔️ | [102. Infinite loop, input, continue and break](/102) | [(click)](https://codechalleng.es/bites/102) | Intro | break, continue, input, mock.patch, while |
 | ✔️ | [103. Loop through a dictionary and pluralise a word](/103) | [(click)](https://codechalleng.es/bites/103) | Intro | dict, looping |
 | ✔️ | [104. Split and join](/104) | [(click)](https://codechalleng.es/bites/104) | Intro | join, split |
-| ✔️ | [105. Slice and dice](/105) | [(click)](https://codechalleng.es/bites/105) | Into | replace, slicing, split, string module, strip |
+| ✔️ | [105. Slice and dice](/105) | [(click)](https://codechalleng.es/bites/105) | Intro | replace, slicing, split, string module, strip |
 | ✔️ | [106. Strip out vowels and count the number of replacements](/106) | [(click)](https://codechalleng.es/bites/106) | Intro | counting, regular expressions, replace, string manipulation, Zen of Python |
 | ✔️ | [107. Filter numbers with a list comprehension](/107) | [(click)](https://codechalleng.es/bites/107) | Intro | list comprehensions, modulo |
 | ✔️ | [108. Loop over a dict of namedtuples calculating a total score](/108) | [(click)](https://codechalleng.es/bites/108) | Intro | counting, dict, namedtuple |
-| ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Into | dict, exception handling, format, string manipulation, ternary |
-| ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Into | exception handling, raise, type casting |
+| ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Intro | dict, exception handling, format, string manipulation, ternary |
+| ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Intro | exception handling, raise, type casting |
 | ✔️ | [125. Get the most recommended books](/125) | [(click)](https://codechalleng.es/bites/125) | Intermediate | beautifulsoup, Counter, default args, list comprehensions, requests |
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
