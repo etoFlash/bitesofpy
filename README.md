@@ -58,6 +58,7 @@ List of PyBites:
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [77. New places to travel to](/77) | [(click)](https://codechalleng.es/bites/77) | Beginner | set, set operations |
 | ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
+| ✔️ | [80. Check equality of two lists](/80) | [(click)](https://codechalleng.es/bites/80) | Beginner | enum, equality, list |
 | ✔️ | [82. Define a Score Enum and customize  it adding methods](/82) | [(click)](https://codechalleng.es/bites/82) | Intermediate | classmethod, enum, __str__ |
 | ✔️ | [91. Matching multiple strings](/91) | [(click)](https://codechalleng.es/bites/91) | Beginner | all, any, string matching |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
