@@ -84,6 +84,7 @@ List of PyBites:
 | ✔️ | [193. Most upvoted StackOverflow Python questions](/193) | [(click)](https://codechalleng.es/bites/193) | Intermediate | beautifulsoup, requests, sorting, string matching, web scraping |
 | ✔️ | [195. Analyze NBA Data with sqlite3](/195) | [(click)](https://codechalleng.es/bites/195) | Intermediate | data analysis, SQL, sqlite3 |
 | ✔️ | [205. Female speakers @ Pycon US](/205) | [(click)](https://codechalleng.es/bites/205) | Intermediate | beautifulsoup, counting, data wrangling, gender_guesser |
+| ✔️ | [214. A countdown generator](/214) | [(click)](https://codechalleng.es/bites/214) | Beginner | generators |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [218. Create a sandwich decorator](/218) | [(click)](https://codechalleng.es/bites/218) | Beginner | decorators |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |

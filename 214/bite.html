@@ -1,0 +1,21 @@
+<p>Write a simple generator that counts from 100 to 1. It can just return the <code>int</code>s one by one, no fancy formatting, just focus on the basic mechanics of generators. Remember that going beyond <code>1</code> it would trigger a <code>StopIteration</code> exception.</p><p>Here is how it works: <pre>
+>>> from countdown import countdown
+>>> cd = countdown()
+>>> next(cd)
+100
+>>> next(cd)
+99
+>>> next(cd)
+98
+>>> next(cd)
+97
+...
+... 95 calls more
+...
+>>> next(cd)
+1
+>>> next(cd)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+</pre></p><p>Good luck, have fun and keep it Python!</p>
