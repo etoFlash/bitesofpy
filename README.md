@@ -77,6 +77,7 @@ List of PyBites:
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [139. Calculate a coding streak in days](/139) | [(click)](https://codechalleng.es/bites/139) | Advanced | datetime, string manipulation, timedelta |
+| ✔️ | [147. 100 WEEKDays of Code Date Range](/147) | [(click)](https://codechalleng.es/bites/147) | Intermediate | datetime, dateutil |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [167. Complete a User class: properties and representation dunder methods](/167) | [(click)](https://codechalleng.es/bites/167) | Beginner | classes, dunder methods, f-strings, properties, __repr__, __str__, string manipulation |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
