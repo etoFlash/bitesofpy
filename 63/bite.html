@@ -1,0 +1,15 @@
+<p>Complete <code>traffic_light</code> using <code>itertools.cycle</code> to return an infinite iterator to similate a traffic light.</p><p>When called it should return a <code>State namedtuple</code> for each new state, here is how an <a href="https://docs.python.org/3/library/itertools.html#itertools.islice" target="_blank">islice</a> looks: <pre>
+from pprint import pprint as pp
+pp(list(islice(traffic_light(), 10)))
+</pre><p>This captures the first 10 iterated values of <code>traffic_light</code> into a list and pretty prints them:</p><pre>
+[State(color='red', command='Stop', timeout=2),
+ State(color='green', command='Go', timeout=2),
+ State(color='amber', command='Caution', timeout=0.5),
+ State(color='red', command='Stop', timeout=2),
+ State(color='green', command='Go', timeout=2),
+ State(color='amber', command='Caution', timeout=0.5),
+ State(color='red', command='Stop', timeout=2),
+ State(color='green', command='Go', timeout=2),
+ State(color='amber', command='Caution', timeout=0.5),
+ State(color='red', command='Stop', timeout=2)]
+</pre><p>Good luck and have fun!</p>
