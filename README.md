@@ -61,6 +61,7 @@ List of PyBites:
 | ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
 | ✔️ | [80. Check equality of two lists](/80) | [(click)](https://codechalleng.es/bites/80) | Beginner | enum, equality, list |
 | ✔️ | [82. Define a Score Enum and customize  it adding methods](/82) | [(click)](https://codechalleng.es/bites/82) | Intermediate | classmethod, enum, __str__ |
+| ✔️ | [86. Create a RGB-to-Hex converter](/86) | [(click)](https://codechalleng.es/bites/86) | Intermediate | string formatting |
 | ✔️ | [91. Matching multiple strings](/91) | [(click)](https://codechalleng.es/bites/91) | Beginner | all, any, string matching |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [100. Display the last part of a file (Unix tail)](/100) | [(click)](https://codechalleng.es/bites/100) | Beginner | file processing, slicing, strip, Unix |
