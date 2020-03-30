@@ -102,3 +102,4 @@ List of PyBites:
 | ✔️ | [257. Extract users dict from a multiline string](/257) | [(click)](https://codechalleng.es/bites/257) | Beginner | dict, string parsing |
 | ✔️ | [259. Reverse complement](/259) | [(click)](https://codechalleng.es/bites/259) | Intermediate | bioinformatics, string manipulation, translate |
 | ✔️ | [262. GC content](/262) | [(click)](https://codechalleng.es/bites/262) | Beginner | bioinformatics, collections |
+| ✔️ | [267. Measure the size of an island](/267) | [(click)](https://codechalleng.es/bites/267) | Intermediate | algorithms, looping, math |
