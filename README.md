@@ -82,6 +82,7 @@ List of PyBites:
 | ✔️ | [143. Look up a value in 3 dictionaries](/143) | [(click)](https://codechalleng.es/bites/143) | Beginner | collections, dict |
 | ✔️ | [147. 100 WEEKDays of Code Date Range](/147) | [(click)](https://codechalleng.es/bites/147) | Intermediate | datetime, dateutil |
 | ✔️ | [149. Sorting words with constraint](/149) | [(click)](https://codechalleng.es/bites/149) | Beginner | lambda, sorting, string manipulation |
+| ✔️ | [153. Round a sequence of numbers](/153) | [(click)](https://codechalleng.es/bites/153) | Beginner | list comprehensions, math, rounding |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [167. Complete a User class: properties and representation dunder methods](/167) | [(click)](https://codechalleng.es/bites/167) | Beginner | classes, dunder methods, f-strings, properties, __repr__, __str__, string manipulation |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
