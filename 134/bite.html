@@ -1,0 +1,13 @@
+<p>Given a random list of numbers, your task is to find the two indices that added together equal the <i>target</i> number. </p><p>For example: <pre>
+numbers = [3, 10, 14, 8, 15, 5, 16, 13, 9, 2]
+target = 30
+result = (2, 6)
+</pre></p><p>To make it a bit harder there are some conditions you should meet: <ol><li>the number at index 1 < number at index2</li><li>if there are multiple indices leading to the right <i>target</i> number, you must return the one where the number at index 1 is the smallest, so if we need to get to 5224 (used in one of the tests) and we have the following contenders the former wins, because it has the smallest <strong>value</strong> at the <strong>first</strong> index: <pre>
+index 31: 476
+index 42: 4748
+total: 5224
+
+index 21: 1675
+index 29: 3549
+total: 5224
+</pre></li></ol></p><p>You can assume that each solution only has one correct answer. If no solution can be found, just return <code>None</code>. Good luck!</p><hr><p>You are free to implement it as you want, but for the fastest solution you might want to follow these steps (again, not required): assuming we have two indices pointing to two of the values in the numbers list, <code>i</code> and <code>j</code>. The sum of <code>i</code> and <code>j</code> could only fall into one of these three possibilities:<ol><li><code>i + j > target</code> - increasing <code>i</code> ins't going to help us, as it makes the sum even bigger. Therefore we should decrease <code>j</code></li><li><code>i + j < target</code> - decreasing <code>j</code> isn't going to help us, as it makes the sum even smaller. Therefore we should increase <code>i</code></li><li><code>i + j == target</code> - We have found the answer</li></ol></p><hr><p><small>This challenge was adapted from Leetcode Clean Code Handbook</small></p>
