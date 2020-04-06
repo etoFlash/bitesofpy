@@ -77,6 +77,7 @@ List of PyBites:
 | ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Intro | exception handling, raise, type casting |
 | ✔️ | [115. Count leading spaces](/115) | [(click)](https://codechalleng.es/bites/115) | Beginner | counting, string matching |
 | ✔️ | [125. Get the most recommended books](/125) | [(click)](https://codechalleng.es/bites/125) | Intermediate | beautifulsoup, Counter, default args, list comprehensions, requests |
+| ✔️ | [128. Work with datetime&#x27;s strptime and strftime](/128) | [(click)](https://codechalleng.es/bites/128) | Beginner | datetime, strftime, strptime |
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [134. Two Sums](/134) | [(click)](https://codechalleng.es/bites/134) | Advanced | index, looping, sorting, sum |
