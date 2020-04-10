@@ -56,6 +56,7 @@ List of PyBites:
 | ✔️ | [66. Calculate the running average of a sequence](/66) | [(click)](https://codechalleng.es/bites/66) | Beginner | enumerate, mean |
 | ✔️ | [68. Remove punctuation characters from a string](/68) | [(click)](https://codechalleng.es/bites/68) | Beginner | string manipulation, string module |
 | ✔️ | [69. Regex Fun - part II](/69) | [(click)](https://codechalleng.es/bites/69) | Advanced | re, regular expressions |
+| ✔️ | [74. What day of the week were you born on?](/74) | [(click)](https://codechalleng.es/bites/74) | Beginner | calendar |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [77. New places to travel to](/77) | [(click)](https://codechalleng.es/bites/77) | Beginner | set, set operations |
 | ✔️ | [79. Parse a csv file and create a bar chart](/79) | [(click)](https://codechalleng.es/bites/79) | Intermediate | bar chart, community, csv, requests |
