@@ -7,7 +7,7 @@ pycon_date = date(2018, 5, 8)
 
 def get_hundred_days_end_date():
     """Return a string of yyyy-mm-dd"""
-    return (start_100days + timedelta(days=100)).strftime("%Y-%m-%d")
+    return str(start_100days + timedelta(days=100))
 
 
 def get_days_between_pb_start_first_joint_pycon():
