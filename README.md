@@ -54,6 +54,7 @@ List of PyBites:
 | ✔️ | [63. Use an infinite iterator to simulate a traffic light](/63) | [(click)](https://codechalleng.es/bites/63) | Advanced | iterators, itertools, namedtuple |
 | ✔️ | [64. Fix a truncating zip function](/64) | [(click)](https://codechalleng.es/bites/64) | Beginner | itertools, zip |
 | ✔️ | [66. Calculate the running average of a sequence](/66) | [(click)](https://codechalleng.es/bites/66) | Beginner | enumerate, mean |
+| ✔️ | [67. Working with datetimes](/67) | [(click)](https://codechalleng.es/bites/67) | Beginner | datetime, timedelta |
 | ✔️ | [68. Remove punctuation characters from a string](/68) | [(click)](https://codechalleng.es/bites/68) | Beginner | string manipulation, string module |
 | ✔️ | [69. Regex Fun - part II](/69) | [(click)](https://codechalleng.es/bites/69) | Advanced | re, regular expressions |
 | ✔️ | [74. What day of the week were you born on?](/74) | [(click)](https://codechalleng.es/bites/74) | Beginner | calendar |
