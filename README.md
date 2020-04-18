@@ -41,6 +41,7 @@ List of PyBites:
 | ✔️ | [32. Don&#x27;t let mutability fool you](/32) | [(click)](https://codechalleng.es/bites/32) | Beginner | deepcopy, mutability |
 | ✔️ | [37. Rewrite a for loop using recursion](/37) | [(click)](https://codechalleng.es/bites/37) | Beginner | recursion, reverse |
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
+| ✔️ | [39. Calculate the total duration of a course](/39) | [(click)](https://codechalleng.es/bites/39) | Intermediate | datetime, findall, numbers, timedelta |
 | ✔️ | [40. Write a binary search algorithm](/40) | [(click)](https://codechalleng.es/bites/40) | Advanced | algorithms, binary search |
 | ✔️ | [43. Force keyword arguments](/43) | [(click)](https://codechalleng.es/bites/43) | Beginner | function arguments, kwargs |
 | ✔️ | [44. License key generator](/44) | [(click)](https://codechalleng.es/bites/44) | Beginner | list comprehensions, secrets, string module |
