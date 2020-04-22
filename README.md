@@ -94,6 +94,7 @@ List of PyBites:
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [163. Which packages were upgraded?](/163) | [(click)](https://codechalleng.es/bites/163) | Intermediate | comparison, dict, numbers, string manipulation |
 | ✔️ | [167. Complete a User class: properties and representation dunder methods](/167) | [(click)](https://codechalleng.es/bites/167) | Beginner | classes, dunder methods, f-strings, properties, __repr__, __str__, string manipulation |
+| ✔️ | [169. Simple length converter](/169) | [(click)](https://codechalleng.es/bites/169) | Beginner | exception handling, numbers, rounding |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
 | ✔️ | [189. Filter a list of names](/189) | [(click)](https://codechalleng.es/bites/189) | Beginner | break, continue, generators, looping |
