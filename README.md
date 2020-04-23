@@ -116,3 +116,4 @@ List of PyBites:
 | ✔️ | [259. Reverse complement](/259) | [(click)](https://codechalleng.es/bites/259) | Intermediate | bioinformatics, string manipulation, translate |
 | ✔️ | [262. GC content](/262) | [(click)](https://codechalleng.es/bites/262) | Beginner | bioinformatics, collections |
 | ✔️ | [267. Measure the size of an island](/267) | [(click)](https://codechalleng.es/bites/267) | Intermediate | algorithms, looping, math |
+| ✔️ | [270. Most frequent digit in number](/270) | [(click)](https://codechalleng.es/bites/270) | Beginner | Counter, counting, numbers |
