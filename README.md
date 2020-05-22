@@ -107,6 +107,7 @@ List of PyBites:
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [218. Create a sandwich decorator](/218) | [(click)](https://codechalleng.es/bites/218) | Beginner | decorators |
 | ✔️ | [219. Bite notification planner](/219) | [(click)](https://codechalleng.es/bites/219) | Intermediate | datetime, generators |
+| ✔️ | [224. Get sentences from a text](/224) | [(click)](https://codechalleng.es/bites/224) | Advanced | data wrangling, regular expressions, string manipulation |
 | ✔️ | [225. Swap case PyBites characters](/225) | [(click)](https://codechalleng.es/bites/225) | Beginner | looping, string manipulation, string parsing |
 | ✔️ | [238. Write tests for Fibonacci](/238) | [(click)](https://codechalleng.es/bites/238) | Beginner | fibonacci, pytest |
 | ✔️ | [239. Test FizzBuzz](/239) | [(click)](https://codechalleng.es/bites/239) | Intermediate | fizzbuzz, pytest |
