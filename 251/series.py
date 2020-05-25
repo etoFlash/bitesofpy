@@ -18,7 +18,7 @@ def float_series() -> pd.Series:
     from 0.000 -> 1.000 e.g. 0.000, 0.001, 0.002... 0.999, 1.000
     Don't worry about the indexes or the series name.
     """
-    return pd.Series(data=np.linspace(0.0, 1.0, 1001))
+    return pd.Series(data=np.arange(0, 1.001, 0.001))
 
 
 def alpha_index_series() -> pd.Series:
