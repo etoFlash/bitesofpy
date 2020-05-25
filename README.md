@@ -115,6 +115,7 @@ List of PyBites:
 | ✔️ | [241. Write tests for list_to_decimal](/241) | [(click)](https://codechalleng.es/bites/241) | Beginner | exception handling, pytest |
 | ✔️ | [246. Test print / standard output](/246) | [(click)](https://codechalleng.es/bites/246) | Beginner | capfd, capsys, list comprehensions, pytest, stdout |
 | ✔️ | [251. Introducing Pandas Series](/251) | [(click)](https://codechalleng.es/bites/251) | Beginner | pandas, series, string module |
+| ✔️ | [252. Let&#x27;s play with Pandas Series](/252) | [(click)](https://codechalleng.es/bites/252) | Beginner | numpy, pandas, series, slicing, type hinting |
 | ✔️ | [254. Global vs local variables](/254) | [(click)](https://codechalleng.es/bites/254) | Beginner | global, sum |
 | ✔️ | [257. Extract users dict from a multiline string](/257) | [(click)](https://codechalleng.es/bites/257) | Beginner | dict, string parsing |
 | ✔️ | [259. Reverse complement](/259) | [(click)](https://codechalleng.es/bites/259) | Intermediate | bioinformatics, string manipulation, translate |
