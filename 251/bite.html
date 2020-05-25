@@ -1,0 +1,30 @@
+<p>Let's get started with Pandas! In case you are not aware of who, or what, <code>pandas</code> is, <a href="https://pandas.pydata.org/" target="_blank">pandas</a> is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.</p>
+
+<p>The two primary data structures in <code>pandas</code> are the <strong><em>Series</em></strong> and the <strong><em>DataFrame</em></strong>. The simplest way to visualise  these two structures is to use an analogy with your favourite Spreadsheet application. Think of a <code>pandas</code> Series as Column A of Sheet 1 of your spreadsheet. Looking at the screen grab below it has 1 dimension (Column A) that represents the Series values, plus the row numbers which represent the indexes. A Dataframe is the whole spreadsheet, 2 dimensions or multiple columns, but more of that later.</p>
+
+<p>This is what a Series looks like in a Spreadsheet.</p>
+
+<p><img src="https://bites-data.s3.us-east-2.amazonaws.com/series_spreadsheet.png" alt="pandas series" width="400"/></p>
+
+<p>In a spreadsheet the row indexes typically start at <code>1</code> and the column names typically start at <code>A</code>. The Series called <code>A</code> above has four value <code>[1, 2, 3, 4]</code>.</p>
+
+<p>This is what a similar Series looks like in <code>pandas</code>:<pre>
+>>> x
+0    1
+1    2
+2    3
+Name: Fred, dtype: int64
+</pre></p>
+
+<p>The <code>pandas</code> Series Python variable is named <code>x</code>. The default index, like all other Python objects, are zero-based so the index values are <code>[0, 1, 2]</code>and the series values are <code>[1, 2, 3]</code>. The sample <code>x</code> series shown is called <code>Fred</code> and all the series values are of type <code>int64</code>.</p>
+
+<h4>Creating Series</h4>
+
+<p>Now that you know everything that you need to know about <code>pandas</code> Series it's time for you to start creating some series of your own. In this Bite you are asked to complete a number of functions that each create a <code>pandas</code> Series. How you create each series is up to you but if you do your research you'll find that Series can be created from all different type of Python Objects: <ol>
+<li>Create a Series with values <code>[1, 2, 3, 4, 5]</code> of type <code>int64</code>, don't worry about the index but make <code>Fred</code> the name of the Series</li>
+<li>Create a Series with values <code>[0.000, 0.001, ... 0.999, 1.000]</code> of type <code>float64</code>, don't worry about the index</li>
+<li>Create a Series with values <code>[1, 2, ... 25, 26]</code> of type <code>int64</code>, and add an index with values <code>[a, b, ... y, z]</code> so index <code>a = 1</code>, <code>b = 2</code> ... <code>y = 25</code>, <code>z = 26</code></li>
+<li>Create a Series with values <code>[A, B, ... Y, Z]</code> of type <code>object</code>, and add an index with values <code>[101, 102, ... 125, 126]</code> so index <code>101 = 'A'</code>, <code>102 = 'B'</code> ... <code>125 = 'Y'</code>, <code>126 = 'Z'</code></li>
+</ol></p>
+
+<p>In the the next Bite we'll look at getting the values out of the Series in a useful manner.</p>
