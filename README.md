@@ -50,6 +50,7 @@ List of PyBites:
 | ✔️ | [47. Write a new password field validator](/47) | [(click)](https://codechalleng.es/bites/47) | Intermediate | re, string module |
 | ✔️ | [48. Make a bar chart of new Safari books](/48) | [(click)](https://codechalleng.es/bites/48) | Intermediate | bar chart, data analysis |
 | ✔️ | [49. Scrape Packt's html with BeautifulSoup](/49) | [(click)](https://codechalleng.es/bites/49) | Intermediate | beautifulsoup, namedtuple, requests |
+| ✔️ | [50. Make a little PyBites search engine (feedparser)](/50) | [(click)](https://codechalleng.es/bites/50) | Advanced | any, feedparser, list comprehensions, namedtuple, search |
 | ✔️ | [51. When does Python 2 die on Planet Miller?](/51) | [(click)](https://codechalleng.es/bites/51) | Intermediate | datetime |
 | ✔️ | [54. Nicer formatting of a poem or text](/54) | [(click)](https://codechalleng.es/bites/54) | Beginner | string manipulation, textwrap |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
