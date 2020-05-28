@@ -1,0 +1,7 @@
+<p>In this Advanced Bite you will implement a full-blown CRUD app to manage movie quotes using <code>Flask</code>. Implement the following <i>routes</i>:</p><pre>
+@app.route('/api/quotes', methods=['GET'])
+@app.route('/api/quotes/<int:qid>', methods=['GET'])
+@app.route('/api/quotes', methods=['POST'])
+@app.route('/api/quotes/<int:qid>', methods=['PUT'])
+@app.route('/api/quotes/<int:qid>', methods=['DELETE'])
+</pre><p>To not distract you from the building API aspect, we just store the data in a <code>list</code> of <code>dict</code>s, in real life you would use a database though.</p><p>Make sure you check the tests for the required <i>return codes</i> for both good and bad calls to the API and use <code>jsonify</code> on your return data.</p><p>Good luck and have fun!</p>
