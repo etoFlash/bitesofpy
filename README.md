@@ -89,6 +89,7 @@ List of PyBites:
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [134. Two Sums](/134) | [(click)](https://codechalleng.es/bites/134) | Advanced | index, looping, sorting, sum |
 | ✔️ | [139. Calculate a coding streak in days](/139) | [(click)](https://codechalleng.es/bites/139) | Advanced | datetime, string manipulation, timedelta |
+| ✔️ | [140. PyBites First Pandas Bite](/140) | [(click)](https://codechalleng.es/bites/140) | Intermediate | csv, data analysis, pandas |
 | ✔️ | [143. Look up a value in 3 dictionaries](/143) | [(click)](https://codechalleng.es/bites/143) | Beginner | collections, dict |
 | ✔️ | [147. 100 WEEKDays of Code Date Range](/147) | [(click)](https://codechalleng.es/bites/147) | Intermediate | datetime, dateutil |
 | ✔️ | [149. Sorting words with constraint](/149) | [(click)](https://codechalleng.es/bites/149) | Beginner | lambda, sorting, string manipulation |
