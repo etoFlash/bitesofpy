@@ -91,6 +91,7 @@ List of PyBites:
 | ✔️ | [139. Calculate a coding streak in days](/139) | [(click)](https://codechalleng.es/bites/139) | Advanced | datetime, string manipulation, timedelta |
 | ✔️ | [140. PyBites First Pandas Bite](/140) | [(click)](https://codechalleng.es/bites/140) | Intermediate | csv, data analysis, pandas |
 | ✔️ | [143. Look up a value in 3 dictionaries](/143) | [(click)](https://codechalleng.es/bites/143) | Beginner | collections, dict |
+| ✔️ | [145. Record Breakers](/145) | [(click)](https://codechalleng.es/bites/145) | Advanced | csv, data analysis, pandas |
 | ✔️ | [147. 100 WEEKDays of Code Date Range](/147) | [(click)](https://codechalleng.es/bites/147) | Intermediate | datetime, dateutil |
 | ✔️ | [149. Sorting words with constraint](/149) | [(click)](https://codechalleng.es/bites/149) | Beginner | lambda, sorting, string manipulation |
 | ✔️ | [153. Round a sequence of numbers](/153) | [(click)](https://codechalleng.es/bites/153) | Beginner | list comprehensions, math, rounding |
