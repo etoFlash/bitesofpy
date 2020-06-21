@@ -1,0 +1,18 @@
+<p>Finish the <code>Animal</code> class below adding one or more class variables and a <code>classmethod</code> so that the following code: </p><pre>
+dog = Animal('dog')
+cat = Animal('cat')
+fish = Animal('fish')
+lion = Animal('lion')
+mouse = Animal('mouse')
+print(Animal.zoo())
+</pre><p>... produces the following output: </p><pre>
+10001. Dog
+10002. Cat
+10003. Fish
+10004. Lion
+10005. Mouse
+</pre>
+<p>Few things to note here:</p><ul><li>The sequencing starts at 10000,</li><li>Each animal gets title cased,</li><li>An individual animal should print the sequence+name string as well, so best to implement the <code>__str__</code> method on the class.</li></ul><p>So making another animal at this point, the following should work:</p><pre>
+horse = Animal('horse')
+assert str(horse) == "10006. Horse"
+</pre><p>As usual this is what the <code>pytest</code> code tests when you submit your code.</p><p>Have fun and code more Python! Join our thriving Slack Community under <a href="https://codechalleng.es/settings/">Settings</a> to learn together with other passionate Pythonistas ...</p>

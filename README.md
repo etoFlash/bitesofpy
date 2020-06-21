@@ -88,6 +88,7 @@ List of PyBites:
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
 | ✔️ | [133. Convert an Amazon URL into an affiliation link](/133) | [(click)](https://codechalleng.es/bites/133) | Beginner | regular expressions, string manipulation |
 | ✔️ | [134. Two Sums](/134) | [(click)](https://codechalleng.es/bites/134) | Advanced | index, looping, sorting, sum |
+| ✔️ | [138. OOP fun at the Zoo](/138) | [(click)](https://codechalleng.es/bites/138) | Intermediate | classes, classmethod, itertools, __str__ |
 | ✔️ | [139. Calculate a coding streak in days](/139) | [(click)](https://codechalleng.es/bites/139) | Advanced | datetime, string manipulation, timedelta |
 | ✔️ | [140. PyBites First Pandas Bite](/140) | [(click)](https://codechalleng.es/bites/140) | Intermediate | csv, data analysis, pandas |
 | ✔️ | [143. Look up a value in 3 dictionaries](/143) | [(click)](https://codechalleng.es/bites/143) | Beginner | collections, dict |
