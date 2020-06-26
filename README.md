@@ -130,3 +130,4 @@ List of PyBites:
 | ✔️ | [270. Most frequent digit in number](/270) | [(click)](https://codechalleng.es/bites/270) | Beginner | Counter, counting, numbers |
 | ✔️ | [272. Find common words](/272) | [(click)](https://codechalleng.es/bites/272) | Intermediate | algorithms, set operations, string matching |
 | ✔️ | [275. Get the most common email domains](/275) | [(click)](https://codechalleng.es/bites/275) | Intermediate | Counter, requests, set, string parsing, web scraping |
+| ✔️ | [278. Major and minor numbers](/278) | [(click)](https://codechalleng.es/bites/278) | Beginner | collections, max, min, numbers |
