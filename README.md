@@ -132,5 +132,6 @@ List of PyBites:
 | ✔️ | [272. Find common words](/272) | [(click)](https://codechalleng.es/bites/272) | Intermediate | algorithms, set operations, string matching |
 | ✔️ | [275. Get the most common email domains](/275) | [(click)](https://codechalleng.es/bites/275) | Intermediate | Counter, requests, set, string parsing, web scraping |
 | ✔️ | [278. Major and minor numbers](/278) | [(click)](https://codechalleng.es/bites/278) | Beginner | collections, max, min, numbers |
+| ✔️ | [279. Armstrong numbers](/279) | [(click)](https://codechalleng.es/bites/279) | Beginner | algorithms, numbers |
 |  | [281. Generating sales reports from Github data](/281) | [(click)](https://codechalleng.es/bites/281) | Advanced | data analysis, pandas |
 | ✔️ | [297. Rename keys](/297) | [(click)](https://codechalleng.es/bites/297) | Advanced | data cleaning, dict, iteration |
