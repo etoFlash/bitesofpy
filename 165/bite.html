@@ -1,0 +1,6 @@
+<p><i>The <code>/etc/passwd</code> file is a text-based database of information about users that may log into the system or other operating system user identities that own running processes.</i> (<a href="https://en.wikipedia.org/wiki/Passwd">Wikipedia</a>).</p><p>In this Bite you complete the function <code>get_users_for_shell</code> that takes a <code>/etc/passwd</code> multiline string and a shell to filter on (default <code>bash</code>). Parse the output returning a <code>list</code> of usernames that match the shell.</p><p>So for this truncated <code>/etc/passwd</code> string:<pre>
+avahi:x:107:108:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+postfix:x:108:112::/var/spool/postfix:/bin/false
+ssh-rsa:x:1004:1004::/home/ssh-rsa:/bin/bash
+artagnon:x:1005:1005:Ramkumar R,,,,Git GSOC:/home/artagnon:/bin/bash"""
+</pre>... the resulting user list would be: <code>['artagnon', 'ssh-rsa']</code></p><p>Good luck and keep calm and code in Python!</p>
