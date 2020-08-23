@@ -84,6 +84,7 @@ List of PyBites:
 | ✔️ | [109. Workout dict lookups and raising an exception](/109) | [(click)](https://codechalleng.es/bites/109) | Intro | dict, exception handling, format, string manipulation, ternary |
 | ✔️ | [110. Type conversion and exception handling](/110) | [(click)](https://codechalleng.es/bites/110) | Intro | exception handling, raise, type casting |
 | ✔️ | [115. Count leading spaces](/115) | [(click)](https://codechalleng.es/bites/115) | Beginner | counting, string matching |
+| ✔️ | [116. List and filter files in a directory](/116) | [(click)](https://codechalleng.es/bites/116) | Intermediate | generators, glob, os module |
 | ✔️ | [120. Write a numbers validation decorator](/120) | [(click)](https://codechalleng.es/bites/120) | Intermediate | decorators |
 | ✔️ | [125. Get the most recommended books](/125) | [(click)](https://codechalleng.es/bites/125) | Intermediate | beautifulsoup, Counter, default args, list comprehensions, requests |
 | ✔️ | [128. Work with datetime&#x27;s strptime and strftime](/128) | [(click)](https://codechalleng.es/bites/128) | Beginner | datetime, strftime, strptime |
