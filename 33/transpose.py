@@ -15,5 +15,5 @@ def transpose(data):
     """
     if isinstance(data, dict):
         return [data.keys(), data.values()]
-    else:
-        return list(zip(*data))
+
+    return list(zip(*data))
