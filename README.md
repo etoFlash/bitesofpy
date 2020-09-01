@@ -39,6 +39,7 @@ List of PyBites:
 | ✔️ | [29. Martin&#x27;s IQ test](/29) | [(click)](https://codechalleng.es/bites/29) | Beginner | enumerate, string module |
 | ✔️ | [30. Movie data analysis](/30) | [(click)](https://codechalleng.es/bites/30) | Intermediate | data analysis, defaultdict, mean, movie data, namedtuple, sorting |
 | ✔️ | [32. Don&#x27;t let mutability fool you](/32) | [(click)](https://codechalleng.es/bites/32) | Beginner | deepcopy, mutability |
+| ✔️ | [33. Transpose a data structure](/33) | [(click)](https://codechalleng.es/bites/33) | Intermediate | dict, zip |
 | ✔️ | [37. Rewrite a for loop using recursion](/37) | [(click)](https://codechalleng.es/bites/37) | Beginner | recursion, reverse |
 | ✔️ | [38. Using ElementTree to parse XML](/38) | [(click)](https://codechalleng.es/bites/38) | Beginner | movie data, xml |
 | ✔️ | [39. Calculate the total duration of a course](/39) | [(click)](https://codechalleng.es/bites/39) | Intermediate | datetime, findall, numbers, timedelta |
