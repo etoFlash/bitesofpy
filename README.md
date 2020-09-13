@@ -110,6 +110,7 @@ List of PyBites:
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
 | ✔️ | [189. Filter a list of names](/189) | [(click)](https://codechalleng.es/bites/189) | Beginner | break, continue, generators, looping |
+| ✔️ | [190. Parse income distribution from Latin America XML](/190) | [(click)](https://codechalleng.es/bites/190) | Intermediate | data analysis, defaultdict, xml |
 | ✔️ | [193. Most upvoted StackOverflow Python questions](/193) | [(click)](https://codechalleng.es/bites/193) | Intermediate | beautifulsoup, requests, sorting, string matching, web scraping |
 | ✔️ | [195. Analyze NBA Data with sqlite3](/195) | [(click)](https://codechalleng.es/bites/195) | Intermediate | data analysis, SQL, sqlite3 |
 | ✔️ | [197. What date is Mother&#x27;s Day celebrated?](/197) | [(click)](https://codechalleng.es/bites/197) | Intermediate | datetime, dateutil |
