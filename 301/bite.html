@@ -1,0 +1,42 @@
+<p>In this Bite you have to provide the currency exchange rates from EUR to USD and GBP for every day in a given date range.</p>
+<p>In the end, you can conviniently look up exchange rates for every required date. The date range is specified by the parameters <code>start_date</code> and&nbsp;<code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">end_date</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> of the function&nbsp;</span><code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">exchange_rates</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">. Both parameters are a string in the format "Year-Month-Day".</span></p>
+<p>For the exchange rates data from the <a href="https://exchangeratesapi.io/" target="_blank" rel="noopener">exchangeratesapi.io</a> API is given as shown below:</p>
+<pre>{<br />  &nbsp; "start_at": "2019-01-01",<br />  &nbsp; "end_at": "2020-09-01",<br />  &nbsp; "base": "EUR",<br />  &nbsp; "rates": {<br />  &nbsp; &nbsp; &nbsp; "2019-06-28": {<br />  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "USD": 1.138,<br />  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "GBP": 0.89655<br />  &nbsp; &nbsp; &nbsp; },<br />  &nbsp; &nbsp; &nbsp; "2020-05-19": {<br />  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "USD": 1.095,<br />  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "GBP": 0.89535<br />  &nbsp; &nbsp; &nbsp; },<br />  &nbsp; &nbsp; &nbsp; "...": {}<br />  &nbsp; }<br />}</pre>
+<p>However, this data only contains exchange rates for days on which stock exchange is open. Usually this excludes weekends and several holidays. Therefore, you have to extract this information and derive exchange rates for days that are not available in this data set.</p>
+<p>For days where the stock exchange is closed, you have to find the date that precedes a given date when the stock exchange was open. For example, when taking the exchange rates on 2020-04-03 (Friday), the exchange rates for 2020-04-04 (Saturday) and 2020-04-05 (Sunday) are equal to the exchange rates on 2020-04-03 (Friday).</p>
+<p>Additionaly, you have to provide the "Base Date" of the exchange rates. The "Base Date" is the date to which the exchange rates are related to originally. So for the above example the Base Dates look like the following:</p>
+<table style="border-collapse: collapse; width: 100%; height: 84px;" border="1">
+<tbody>
+<tr style="height: 21px;">
+<td style="width: 25%; height: 21px;"><strong>Date</strong></td>
+<td style="width: 25%; height: 21px;"><strong>Base Date</strong></td>
+<td style="width: 25%; height: 21px;"><strong>USD</strong></td>
+<td style="width: 25%; height: 21px;"><strong>GBP</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 25%; height: 21px;">2020-04-03</td>
+<td style="width: 25%; height: 21px;">2020-04-03</td>
+<td style="width: 25%; height: 21px;">1.0785</td>
+<td style="width: 25%; height: 21px;">0.8785</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 25%; height: 21px;">2020-04-04</td>
+<td style="width: 25%; height: 21px;">2020-04-03</td>
+<td style="width: 25%; height: 21px;">1.0785</td>
+<td style="width: 25%; height: 21px;">0.8785</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 25%; height: 21px;">2020-04-05</td>
+<td style="width: 25%; height: 21px;">2020-04-03</td>
+<td style="width: 25%; height: 21px;">1.0785</td>
+<td style="width: 25%; height: 21px;">0.8785</td>
+</tr>
+</tbody>
+</table>
+<p><br />To obtain all days to be considered, complete the&nbsp;<code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">get_all_days</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> function. This function returns a list of all days in <code>date</code> format. Complete the function&nbsp;</span><code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">match_daily_rates</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;"> which returns a match between a given day and an entry in the original dataset. </span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;">The </span><code>exchange_rates</code><span style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;">&nbsp;function should return the exchange rates for every day in the date range as shown below:</span></p>
+<pre>result = {<br />  &nbsp; date(2020, 4, 5): {<br />  &nbsp; &nbsp; &nbsp; "Base Date": date(2020, 4, 3),<br />  &nbsp; &nbsp; &nbsp; "USD": 1.0785,<br />  &nbsp; &nbsp; &nbsp; "GBP": 0.8785,<br />  &nbsp; }<br />}</pre>
+<p>Finally two additional requirements:</p>
+<p>- Create the result in such a way that it is (chronologically) ordered according to the date keys. You may want to take a look at Python 3.7 changes or at the&nbsp;<code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">collections</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;module.</span></p>
+<p>- Check if the given&nbsp;<code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">start_date</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;and <code>end_date</code> for&nbsp;</span><code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">exchange_rates</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> are compatible to the provided dataset. If either the&nbsp;</span><code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">start_date</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> lies before start of the dataset range or&nbsp;</span><code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">end_date</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> lies after the end of the dataset range throw a&nbsp;</span><code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">ValueError</span></code><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;and inform the user of the particular problem.</span></p>
+<p>Good luck and keep calm and code in Python!</p>

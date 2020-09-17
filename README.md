@@ -144,3 +144,4 @@ List of PyBites:
 | ✔️ | [295. Join lists](/295) | [(click)](https://codechalleng.es/bites/295) | Beginner | iteration, joining, list |
 | ✔️ | [297. Rename keys](/297) | [(click)](https://codechalleng.es/bites/297) | Advanced | data cleaning, dict, iteration |
 | ✔️ | [299. Base converter](/299) | [(click)](https://codechalleng.es/bites/299) | Intermediate | base, exception handling |
+| ✔️ | [301. Exchange Rates](/301) | [(click)](https://codechalleng.es/bites/301) | Intermediate | datetime, dict, sorting |
