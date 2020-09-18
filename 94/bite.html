@@ -1,0 +1,10 @@
+<p><a href="https://pybit.es/pycon-2018" target="_blank">PyCon2018</a> was awesome! But you clearly had to choose the whole time, so much was going on!</p><p>In this Bite we parsed all the talks from the <a href="https://www.youtube.com/channel/UCsX05-2sVSH7Nx3zuk3NYuQ/videos?view=0&flow=grid&sort=p" target="_blank">PyCon 2018 YT channel</a> and stored them into a list of Video namedtuples. This nested data structure is stored in a <code>pickle</code> file. The data looks like this:<pre>
+[Video(id='T-TwcmT6Rcw',
+             title='Raymond Hettinger - Dataclasses:  The code generator ...',
+             duration='PT45M8S',
+             metrics={'viewCount': '6047', 'likeCount': '139', 'dislikeCount': '2',
+                              'favoriteCount': '0', 'commentCount': '14'}),
+ Video(id='duvZ-2UK0fc', title='Ned Batchelder .... same attributes ...),
+ Video(id='GBQAKldqgZs', title='Kenneth Reitz ....same attributes ...),
+ ... same Video namedtuples ...]
+</pre></p><p>See the full data dump <a href="https://bites-data.s3.us-east-2.amazonaws.com/pycon_videos_22nd_may_2018.html" target="_blank">here</a> (note this is a snapshot as of today = 23rd of May 2018, the numbers will change, but we want static data for this Bite so we can run tests against your code).</p><p>Now the exercise: complete the 5 functions below, parsing this data set. See the docstrings and the tests for more info... </p><p>Have fun and keep calm and code in Python!</p>
