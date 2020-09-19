@@ -1,0 +1,28 @@
+<p>In this Bite you write a simple calculator that can perform additions (<i>add</i>), subtractions (<i>sub</i>), multiplications (<i>mul</i>) and divisions (<i>div</i>).</p><p>You will use <code>argparse</code> to interface with the program. You will make it work like this: </p><pre>
+$ python calculator.py -h
+usage: calculator.py [-h] [-a ADD [ADD ...]] [-s SUB [SUB ...]]
+                     [-m MUL [MUL ...]] [-d DIV [DIV ...]]
+
+A simple calculator
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a ADD [ADD ...], --add ADD [ADD ...]
+                        Sums numbers
+  -s SUB [SUB ...], --sub SUB [SUB ...]
+                        Subtracts numbers
+  -m MUL [MUL ...], --mul MUL [MUL ...]
+                        Multiplies numbers
+  -d DIV [DIV ...], --div DIV [DIV ...]
+                        Divides numbers
+
+
+$ python calculator.py --add 1 2 3
+6.0
+$ python calculator.py --sub 10 6 2
+2.0
+$ python calculator.py --mul 3 3 3
+27.0
+$ python calculator.py --div 8 5 7
+0.23
+</pre><p>See also the TESTS tab for more info. Good luck and have fun ... <code>argparse</code> is a good skill to have!</p><p>If new to <code>argparse</code> you might want to check out Bite <a href="https://codechalleng.es/bites/56/">56</a> first. For a more advanced Bite try <a href="https://codechalleng.es/bites/58/">58</a>.</p>
