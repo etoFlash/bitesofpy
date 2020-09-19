@@ -56,6 +56,7 @@ List of PyBites:
 | ✔️ | [52. Create a movie quote API with Flask](/52) | [(click)](https://codechalleng.es/bites/52) | Advanced | APIs, Flask, movie data |
 | ✔️ | [54. Nicer formatting of a poem or text](/54) | [(click)](https://codechalleng.es/bites/54) | Beginner | string manipulation, textwrap |
 | ✔️ | [55. Get the latest game releases from Steam's RSS feed](/55) | [(click)](https://codechalleng.es/bites/55) | Beginner | feedparser, namedtuple |
+| ✔️ | [56. Add a command line interface to our BMI calculator](/56) | [(click)](https://codechalleng.es/bites/56) | Beginner | argparse |
 | ✔️ | [63. Use an infinite iterator to simulate a traffic light](/63) | [(click)](https://codechalleng.es/bites/63) | Advanced | iterators, itertools, namedtuple |
 | ✔️ | [64. Fix a truncating zip function](/64) | [(click)](https://codechalleng.es/bites/64) | Beginner | itertools, zip |
 | ✔️ | [66. Calculate the running average of a sequence](/66) | [(click)](https://codechalleng.es/bites/66) | Beginner | enumerate, mean |
