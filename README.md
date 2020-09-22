@@ -65,6 +65,7 @@ List of PyBites:
 | ✔️ | [67. Working with datetimes](/67) | [(click)](https://codechalleng.es/bites/67) | Beginner | datetime, timedelta |
 | ✔️ | [68. Remove punctuation characters from a string](/68) | [(click)](https://codechalleng.es/bites/68) | Beginner | string manipulation, string module |
 | ✔️ | [69. Regex Fun - part II](/69) | [(click)](https://codechalleng.es/bites/69) | Advanced | re, regular expressions |
+| ✔️ | [71. Keep state in a class + make its instance callable](/71) | [(click)](https://codechalleng.es/bites/71) | Intermediate | classes, dunder methods |
 | ✔️ | [74. What day of the week were you born on?](/74) | [(click)](https://codechalleng.es/bites/74) | Beginner | calendar |
 | ✔️ | [75. Parse Unix cal to a weekday mapping](/75) | [(click)](https://codechalleng.es/bites/75) | Advanced | re, Unix, zip |
 | ✔️ | [77. New places to travel to](/77) | [(click)](https://codechalleng.es/bites/77) | Beginner | set, set operations |
