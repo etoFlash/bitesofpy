@@ -27,13 +27,15 @@ class Promo:
     def __init__(self, bites_done=bites_done):
         self.bites_done = bites_done
 
-    def _pick_random_bite(self):
-        bites = [bite for bite in BITES if bite not in self.bites_done]
+    @property
+    def available_bites(self):
+        return list(BITES.keys() - self.bites_done)
 
-        if not bites:
+    def _pick_random_bite(self):
+        if not self.available_bites:
             raise NoBitesAvailable
 
-        return random.choice(bites)
+        return random.choice(self.available_bites)
 
     def new_bite(self):
         bite = self._pick_random_bite()
