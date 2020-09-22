@@ -33,6 +33,7 @@ List of PyBites:
 | ✔️ | [19. Write a simple property](/19) | [(click)](https://codechalleng.es/bites/19) | Beginner | datetime, properties |
 | ✔️ | [21. Query a nested data structure](/21) | [(click)](https://codechalleng.es/bites/21) | Beginner | data structures, dictionary comprehensions, list comprehensions, sorting |
 | ✔️ | [22. Write a decorator with argument](/22) | [(click)](https://codechalleng.es/bites/22) | Intermediate | decorators |
+| ✔️ | [25. No promo twice, keep state in a class](/25) | [(click)](https://codechalleng.es/bites/25) | Intermediate | classes, exception handling, properties |
 | ✔️ | [26. Dictionary comprehensions are awesome](/26) | [(click)](https://codechalleng.es/bites/26) | Beginner | dictionary comprehensions |
 | ✔️ | [27. Parse omdb movie json data](/27) | [(click)](https://codechalleng.es/bites/27) | Intermediate | APIs, glob, json, movie data |
 | ✔️ | [28. Converting date strings to datetimes](/28) | [(click)](https://codechalleng.es/bites/28) | Intermediate | Counter, datetime, findall |
