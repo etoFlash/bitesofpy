@@ -76,6 +76,7 @@ List of PyBites:
 | ✔️ | [89. Playing with lists and dicts](/89) | [(click)](https://codechalleng.es/bites/89) | Intermediate | data structures, dict, list |
 | ✔️ | [91. Matching multiple strings](/91) | [(click)](https://codechalleng.es/bites/91) | Beginner | all, any, string matching |
 | ✔️ | [94. Parse PyCon talk data from YouTube](/94) | [(click)](https://codechalleng.es/bites/94) | Advanced | list comprehensions, max, namedtuple |
+| ✔️ | [95. Subclass the dict built-in](/95) | [(click)](https://codechalleng.es/bites/95) | Intermediate | classes, inheritance |
 | ✔️ | [97. BeautifulSoup II - scrape US holidays](/97) | [(click)](https://codechalleng.es/bites/97) | Intermediate | beautifulsoup, defaultdict, dict |
 | ✔️ | [99. Write an infinite sequence generator](/99) | [(click)](https://codechalleng.es/bites/99) | Intermediate | generators, itertools, string module, zip |
 | ✔️ | [100. Display the last part of a file (Unix tail)](/100) | [(click)](https://codechalleng.es/bites/100) | Beginner | file processing, slicing, strip, Unix |

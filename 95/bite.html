@@ -1,0 +1,16 @@
+<p>In this Bite you will subclass the <code>dict</code> built-in to support a birthday dictionary.</p>
+<p>This dictionary takes names as <em>keys</em> and birthday <code>date</code>s as <em>values</em>. Implement the <code>__setitem__</code> <em>dunder method</em> to print a message every time somebody gets added with a birthday that is already in the dictionary. It should work like this when running it in the REPL:</p>
+<pre>  &gt;&gt;&gt; from datetime import date
+  &gt;&gt;&gt; from bdaydict import BirthdayDict
+  &gt;&gt;&gt; bd = BirthdayDict()
+  &gt;&gt;&gt; bd['bob'] = date(1987, 6, 15)
+  &gt;&gt;&gt; bd['tim'] = date(1984, 7, 15)
+  &gt;&gt;&gt; bd['mary'] = date(1987, 6, 15)  # whole date match
+  Hey mary, there are more people with your birthday!
+  &gt;&gt;&gt; bd['sara'] = date(1987, 6, 14)
+  &gt;&gt;&gt; bd['mike'] = date(1981, 7, 15)  # day + month match
+  Hey mike, there are more people with your birthday!
+</pre>
+<p>So if day and month are the same, you have a match, the year can be different. Use <code>MSG</code> to print the message, string replacing it with the name <em>key</em> of the newly added person.</p>
+<p><em>Note that this exercise is to get you thinking about subclasses and extending built-in behavior. There is a caveat though: the code of the built-ins (written in C) does not call special methods overriden by user-defined classes (source: <a href="https://books.google.es/books?id=kYZHCgAAQBAJ&amp;pg=PA362&amp;lpg=PA362&amp;dq=subclass+dict+builtin&amp;source=bl&amp;ots=iswkRyEQQf&amp;sig=k1SGYfmNqPxtxytdMXv6F636d0A&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjG2aHh_Z7bAhVLvhQKHbbRC14Q6AEIgQEwBg#v=onepage&amp;q=subclass%20dict%20builtin&amp;f=false" target="_blank" rel="noopener">Fluent Python</a>), so use this with caution.</em></p>
+<p>Good luck and have fun!</p>
