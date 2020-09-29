@@ -7,8 +7,8 @@ def split_once(text: str, separators: str = None) -> List[str]:
     seps = list(separators or whitespace)
 
     while seps:
-        sep = max(seps, key=lambda x: result[0].find(x))
-        result[:1] = result[0].split(sep, 1)
+        sep = min(seps, key=lambda x: result[-1].find(x))
+        result[-1:] = result[-1].split(sep, 1)
         seps.remove(sep)
 
     return result
