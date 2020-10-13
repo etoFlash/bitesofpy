@@ -1,0 +1,11 @@
+<p>In this Bite, we want you to scrape PyCon 2019 data.</p>
+
+<p>The provided source via <code>_get_pycon_data</code> contains data for years other than 2019 and conferences other than PyCon, so you have to be selective.</p>
+
+<p>Complete the <code>get_pycon_events</code> function by scraping the required data from the source. The data is contained in a <code>application/ld+json</code> data structure, which can be parsed with the json module after retrieving the content. Extract the data required for the given PyCon <code>namedtuple</code> which is the name of the PyCon, the city it takes place, the country the start date, the end date and the homepage url. Make sure to parse the start date and the end date as <code>datetime</code>.</p>
+
+<p>After retrieving all PyCon events complete the <code>filter_pycons</code> function. The function takes a list of PyCon <code>namedtumple</code>s, a year and a continent as parameters. Based on the year and continent, return a list of all PyCons that meet the requirements. To make it a bit easier for you, we provide a <code>get_continent(country)</code> function which takes a country name as a string and returns the continent of the country as a string. </p>
+
+<p>Check the tests and docstrings for additional information.</p>
+
+<p>Good luck and keep calm and code in Python!</p>

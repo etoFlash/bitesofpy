@@ -136,6 +136,7 @@ List of PyBites:
 | ✔️ | [251. Introducing Pandas Series](/251) | [(click)](https://codechalleng.es/bites/251) | Beginner | pandas, series, string module |
 | ✔️ | [252. Let&#x27;s play with Pandas Series](/252) | [(click)](https://codechalleng.es/bites/252) | Beginner | numpy, pandas, series, slicing, type hinting |
 | ✔️ | [254. Global vs local variables](/254) | [(click)](https://codechalleng.es/bites/254) | Beginner | global, sum |
+| ✔️ | [256. Scrape PyCon events](/256) | [(click)](https://codechalleng.es/bites/256) | Intermediate | beautifulsoup, data analysis, json, namedtuple, pycon, requests, web scraping |
 | ✔️ | [257. Extract users dict from a multiline string](/257) | [(click)](https://codechalleng.es/bites/257) | Beginner | dict, string parsing |
 | ✔️ | [259. Reverse complement](/259) | [(click)](https://codechalleng.es/bites/259) | Intermediate | bioinformatics, string manipulation, translate |
 | ✔️ | [262. GC content](/262) | [(click)](https://codechalleng.es/bites/262) | Beginner | bioinformatics, collections |
