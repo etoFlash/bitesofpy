@@ -119,6 +119,7 @@ def get_pycon_events(data=_get_pycon_data()) -> List[PyCon]:
                       end_date=parse(event['endDate']),
                       url=event['url'])
             )
+
     return result
 
 
@@ -131,6 +132,8 @@ def filter_pycons(pycons: List[PyCon],
     that continent.
     """
     return [
-        pycon for pycon in pycons
-        if pycon.start_date.year == year and get_continent(pycon.country) == continent
+        pycon
+        for pycon in pycons
+        if pycon.start_date.year == year
+        and get_continent(pycon.country) == continent
     ]
