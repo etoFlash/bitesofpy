@@ -106,6 +106,7 @@ List of PyBites:
 | ✔️ | [145. Record Breakers](/145) | [(click)](https://codechalleng.es/bites/145) | Advanced | csv, data analysis, pandas |
 | ✔️ | [147. 100 WEEKDays of Code Date Range](/147) | [(click)](https://codechalleng.es/bites/147) | Intermediate | datetime, dateutil |
 | ✔️ | [149. Sorting words with constraint](/149) | [(click)](https://codechalleng.es/bites/149) | Beginner | lambda, sorting, string manipulation |
+| ✔️ | [150. Turn messy CSV into JSON](/150) | [(click)](https://codechalleng.es/bites/150) | Intermediate | csv, json, pandas, re, string manipulation |
 | ✔️ | [153. Round a sequence of numbers](/153) | [(click)](https://codechalleng.es/bites/153) | Beginner | list comprehensions, math, rounding |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [161. Count the number of files and directories](/161) | [(click)](https://codechalleng.es/bites/161) | Beginner | counting, directories, files, os module |

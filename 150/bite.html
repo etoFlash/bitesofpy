@@ -1,0 +1,7 @@
+<p>At the <a href="https://twitter.com/pybites/status/943811489537945600" target="_blank">1 year mark of our platform</a> here is Bite 150! In this Bite you are presented with some messed up <code>csv</code>  (to avoid file IO we pre-loaded it into a multi-line string variable <code>members</code>). The first line is the header and can be assumed to only have commas, the 10 data rows though have a mix of <code>,</code>, <code>|</code> and <code>;</code> delimiters.</p> <p>But no worries, you Python ninjas can do data cleaning for breakfast no?!</p><p>Complete <code>convert_to_json</code> parsing this output and returning valid <code>json</code> like this:<pre>
+[{"id": "1", "first_name": "Junie", "last_name": "Kybert", "email": "jkybert0@army.mil"},
+ {"id": "2", "first_name": "Sid", "last_name": "Churching", "email": "schurching1@tumblr.com"},
+ {"id": "3", "first_name": "Cherry", "last_name": "Dudbridge", "email": "cdudbridge2@nifty.com"},
+ ... more entries ...
+]
+</pre></p><p>The tests will check if your output is indeed valid <code>json</code> and of course if it contains all data. Good luck!</p>
