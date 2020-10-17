@@ -17,7 +17,7 @@ id,first_name,last_name,email
 
 
 def convert_to_json(members=members):
-    members = members.strip().splitlines(keepends=False)
+    members = members.strip().splitlines()
     header = members[0].split(',')
     result = []
     for s in members[1:]:
