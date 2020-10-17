@@ -93,6 +93,7 @@ List of PyBites:
 | ✔️ | [115. Count leading spaces](/115) | [(click)](https://codechalleng.es/bites/115) | Beginner | counting, string matching |
 | ✔️ | [116. List and filter files in a directory](/116) | [(click)](https://codechalleng.es/bites/116) | Intermediate | generators, glob, os module |
 | ✔️ | [120. Write a numbers validation decorator](/120) | [(click)](https://codechalleng.es/bites/120) | Intermediate | decorators |
+| ✔️ | [122. Check if two words are anagrams](/122) | [(click)](https://codechalleng.es/bites/122) | Intermediate | anagram, string matching |
 | ✔️ | [125. Get the most recommended books](/125) | [(click)](https://codechalleng.es/bites/125) | Intermediate | beautifulsoup, Counter, default args, list comprehensions, requests |
 | ✔️ | [128. Work with datetime&#x27;s strptime and strftime](/128) | [(click)](https://codechalleng.es/bites/128) | Beginner | datetime, strftime, strptime |
 | ✔️ | [130. Analyze some basic Car Data](/130) | [(click)](https://codechalleng.es/bites/130) | Beginner | Counter, data analysis, list comprehensions, set |
