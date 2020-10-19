@@ -1,0 +1,16 @@
+<p>In this Bite you will strip off all comments from some Python source code.  Complete <code>strip_comments</code> that takes some multiline code string and strip out:<ul> <li>Single line comments = lines that start with <code>#</code>.</li> <li>PEP8-compliant inline comments, so code followed by 2 spaces, a <code>#</code>, a space and comment.</li> <li>Multiline comments / docstrings (<code>"""my\ncomment"""</code>), which could be non indented (at the module level) or indented in a function/ method. You can assume these have always 3 double, not single, quotes.</li></ul></p><p>Return a string of the code without comments.</p><p>So this code:<pre>
+"""this is
+my awesome script
+"""
+# importing modules
+import re
+
+def hello(name):
+    """my function docstring"""
+    return f'hello {name}'  # my inline comment
+</pre></p><p>... would result in:<pre>
+import re
+
+def hello(name):
+    return f'hello {name}'
+</pre></p><p>Good luck and keep calm and code in Python!</p>

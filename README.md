@@ -115,6 +115,7 @@ List of PyBites:
 | ✔️ | [167. Complete a User class: properties and representation dunder methods](/167) | [(click)](https://codechalleng.es/bites/167) | Beginner | classes, dunder methods, f-strings, properties, __repr__, __str__, string manipulation |
 | ✔️ | [169. Simple length converter](/169) | [(click)](https://codechalleng.es/bites/169) | Beginner | exception handling, numbers, rounding |
 | ✔️ | [176. Create a variable length chessboard](/176) | [(click)](https://codechalleng.es/bites/176) | Beginner | modulo, range, stdout |
+| ✔️ | [179. Strip comments from Python code](/179) | [(click)](https://codechalleng.es/bites/179) | Advanced | comments, regular expressions, string parsing |
 | ✔️ | [180. Group names by country](/180) | [(click)](https://codechalleng.es/bites/180) | Beginner | collections, defaultdict, groupby |
 | ✔️ | [188. Get statistics from PyBites test code](/188) | [(click)](https://codechalleng.es/bites/188) | Beginner | data analysis, file processing, statistics |
 | ✔️ | [189. Filter a list of names](/189) | [(click)](https://codechalleng.es/bites/189) | Beginner | break, continue, generators, looping |
