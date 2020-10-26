@@ -124,6 +124,7 @@ List of PyBites:
 | ✔️ | [195. Analyze NBA Data with sqlite3](/195) | [(click)](https://codechalleng.es/bites/195) | Intermediate | data analysis, SQL, sqlite3 |
 | ✔️ | [197. What date is Mother&#x27;s Day celebrated?](/197) | [(click)](https://codechalleng.es/bites/197) | Intermediate | datetime, dateutil |
 | ✔️ | [205. Female speakers @ Pycon US](/205) | [(click)](https://codechalleng.es/bites/205) | Intermediate | beautifulsoup, counting, data wrangling, gender_guesser |
+| ✔️ | [208. Find the number pairs summing up N](/208) | [(click)](https://codechalleng.es/bites/208) | Beginner | itertools, looping, numbers |
 | ✔️ | [214. A countdown generator](/214) | [(click)](https://codechalleng.es/bites/214) | Beginner | generators |
 | ✔️ | [215. Validate a license key](/215) | [(click)](https://codechalleng.es/bites/215) | Beginner | bool, regular expressions |
 | ✔️ | [218. Create a sandwich decorator](/218) | [(click)](https://codechalleng.es/bites/218) | Beginner | decorators |
