@@ -108,6 +108,7 @@ List of PyBites:
 | ✔️ | [149. Sorting words with constraint](/149) | [(click)](https://codechalleng.es/bites/149) | Beginner | lambda, sorting, string manipulation |
 | ✔️ | [150. Turn messy CSV into JSON](/150) | [(click)](https://codechalleng.es/bites/150) | Intermediate | csv, json, pandas, re, string manipulation |
 | ✔️ | [153. Round a sequence of numbers](/153) | [(click)](https://codechalleng.es/bites/153) | Beginner | list comprehensions, math, rounding |
+| ✔️ | [155. Split a string by spaces or quoted text](/155) | [(click)](https://codechalleng.es/bites/155) | Intermediate | split, string manipulation |
 | ✔️ | [156. Make an index of story characters](/156) | [(click)](https://codechalleng.es/bites/156) | Intermediate | collections, defaultdict, enumerate, sorting, string matching |
 | ✔️ | [161. Count the number of files and directories](/161) | [(click)](https://codechalleng.es/bites/161) | Beginner | counting, directories, files, os module |
 | ✔️ | [163. Which packages were upgraded?](/163) | [(click)](https://codechalleng.es/bites/163) | Intermediate | comparison, dict, numbers, string manipulation |
