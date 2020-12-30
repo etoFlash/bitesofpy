@@ -159,3 +159,4 @@ List of PyBites:
 | ✔️ | [299. Base converter](/299) | [(click)](https://codechalleng.es/bites/299) | Intermediate | base, exception handling |
 | ✔️ | [301. Exchange Rates](/301) | [(click)](https://codechalleng.es/bites/301) | Intermediate | datetime, dict, sorting |
 | ✔️ | [305. Split once, delimit many](/305) | [(click)](https://codechalleng.es/bites/305) | Intermediate | looping, split, string parsing |
+| ✔️ | [314. Print names to columns](/314) | [(click)](https://codechalleng.es/bites/314) | Beginner | f-strings, modulo, print |
