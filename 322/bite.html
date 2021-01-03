@@ -1,0 +1,12 @@
+<p>Happy New Year! How many books do you aim to read this year?</p>
+<p>In this Bite you will complete <code>ontrack_reading</code> that takes the amount of books you want to read (<code>books_goal</code>), the amount of books read (<code>books_read</code>) and the day of the year (<code>day_of_year</code>, if <code>None</code> or not provided, it defaults to today, that is the offset in days into the year right now). The function returns a <code>bool</code> signifying if you are on track or not.</p>
+<p>Here is how it works in the REPL:</p>
+<pre>&gt;&gt;&gt; from progress import ontrack_reading
+&gt;&gt;&gt; ontrack_reading(60, 0, 3)
+False
+&gt;&gt;&gt; ontrack_reading(60, 0)  # same as previous statement, today = 3rd of Jan
+False
+&gt;&gt;&gt; ontrack_reading(60, 1, 3)
+True
+&gt;&gt;&gt; ontrack_reading(10, 10, 365)
+True</pre>
