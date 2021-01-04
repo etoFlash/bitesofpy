@@ -154,6 +154,7 @@ List of PyBites:
 |  | [281. Generating sales reports from Github data](/281) | [(click)](https://codechalleng.es/bites/281) | Advanced | data analysis, pandas |
 | ✔️ | [283. Like there&#x27;s no tomorrow?](/283) | [(click)](https://codechalleng.es/bites/283) | Beginner | datetime |
 | ✔️ | [288. Smallest number](/288) | [(click)](https://codechalleng.es/bites/288) | Beginner | numbers |
+| ✔️ | [289. Round to next number](/289) | [(click)](https://codechalleng.es/bites/289) | Beginner | math |
 | ✔️ | [293. N digit numbers](/293) | [(click)](https://codechalleng.es/bites/293) | Beginner | numbers |
 | ✔️ | [295. Join lists](/295) | [(click)](https://codechalleng.es/bites/295) | Beginner | iteration, joining, list |
 | ✔️ | [297. Rename keys](/297) | [(click)](https://codechalleng.es/bites/297) | Advanced | data cleaning, dict, iteration |
