@@ -160,4 +160,5 @@ List of PyBites:
 | ✔️ | [301. Exchange Rates](/301) | [(click)](https://codechalleng.es/bites/301) | Intermediate | datetime, dict, sorting |
 | ✔️ | [305. Split once, delimit many](/305) | [(click)](https://codechalleng.es/bites/305) | Intermediate | looping, split, string parsing |
 | ✔️ | [314. Print names to columns](/314) | [(click)](https://codechalleng.es/bites/314) | Beginner | f-strings, modulo, print |
+| ✔️ | [317. Pickling objects](/317) | [(click)](https://codechalleng.es/bites/317) | Beginner | data wrangling, pickle, serialization |
 | ✔️ | [322. Reading progress](/322) | [(click)](https://codechalleng.es/bites/322) | Beginner | datetime, numbers |
