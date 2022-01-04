@@ -1,0 +1,7 @@
+<p>Write a function that returns a neatly formatted string representation of a python object.</p>
+<p>As you might have guessed, there is a package in the standard library that can help you with pretty printing and pretty formatting (<code>pprint</code>). This package can also be really useful for debugging with <code>print</code> statements.</p>
+<p>The function <code>pretty_str</code> should pretty format the object with the following features:</p>
+<p>&nbsp;- Line breaks after items when 60 characters are reached</p>
+<p>&nbsp;- With nested items, only show items up to a depth of 2, otherwise display an ellipsis <code>[...]</code></p>
+<p>&nbsp;- Dictionaries should be sorted according to their key order</p>
+<pre>&gt;&gt;&gt; d={"Z": "Z"*40,<br />&nbsp; &nbsp; &nbsp; &nbsp;"B": [1,[2,[3]]],<br />&nbsp; &nbsp; &nbsp; &nbsp;"A": "A"*40}<br />&gt;&gt;&gt; result = pretty_str(d)<br />&gt;&gt;&gt; print(result)<br />{'A': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',<br />&nbsp;'B': [1, [...]],<br />&nbsp;'Z': 'ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ'},</pre>

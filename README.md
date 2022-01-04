@@ -164,3 +164,4 @@ List of PyBites:
 | ✔️ | [314. Print names to columns](/314) | [(click)](https://codechalleng.es/bites/314) | Beginner | f-strings, modulo, print |
 | ✔️ | [317. Pickling objects](/317) | [(click)](https://codechalleng.es/bites/317) | Beginner | data wrangling, pickle, serialization |
 | ✔️ | [322. Reading progress](/322) | [(click)](https://codechalleng.es/bites/322) | Beginner | datetime, numbers |
+| ✔️ | [324. Pretty string](/324) | [(click)](https://codechalleng.es/bites/324) | Beginner | pprint |
